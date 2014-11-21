@@ -11,5 +11,8 @@
 	@yield('content')
 	<footer>@include('partials.footer')</footer>
 	@include('partials.scripts')
+	@if(getenv('APP_ENV') == 'production')
+		@include('partials.googleAnalytics')
+	@endif
 </body>
 </html>

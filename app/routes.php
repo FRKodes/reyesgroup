@@ -15,3 +15,10 @@ Route::get('/', function()
 {
 	return View::make('home');
 });
+
+Route::post('/sendmail', function()
+{
+	Mail::send('emails.contacto', [], function($message){
+		$message->to('frkalderon@gmail.com')->subject('Reyes Group, mail de contacto.');
+	});
+});
