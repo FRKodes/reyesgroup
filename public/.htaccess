@@ -36,3 +36,8 @@
   ExpiresByType application/x-javascript A604800
   ExpiresByType text/css A604800
 </IfModule>
+
+# 1 MES
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|swf|js|xml|txt|css)$">
+  Header set Cache-Control "max-age=2592000, public"
+</FilesMatch>
