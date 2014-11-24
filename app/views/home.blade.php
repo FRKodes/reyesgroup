@@ -116,9 +116,12 @@
 					<span class="item-deco left-deco"></span><h2>NUESTROS CLIENTES</h2><span class="item-deco right-deco"></span>
 					<span class="bottom-deco"></span>
 					<p class="desc-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate veniam porro ex rem. Autem natus tenetur assumenda fugiat repellendus illum officia, dolorum exercitationem eum delectus quidem alias ducimus eligendi perferendis.</p>
-					<figure>
-						<img src="../images/concepto-musica-reyes-cantina.png" alt="Concepto cliente reyes cantina, Nuestros clientes" width="787" height="695">
-					</figure>
+					<div class="block-clientes">
+						<figure><img src="images/reyes-clientes-01.jpg" width="186" height="186" alt="Reyes img"></figure>
+						<figure><img src="images/reyes-clientes-02.jpg" width="186" height="186" alt="Reyes img"></figure>
+						<figure><img src="images/reyes-clientes-03.jpg" width="186" height="186" alt="Reyes img"></figure>
+						<figure><img src="images/reyes-clientes-04.jpg" width="186" height="186" alt="Reyes img"></figure>
+					</div>
 					<h3>Nuestros clientes</h3>
 					<p class="desc-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, architecto eligendi dolores fugit repellat nulla facere corrupti aliquam facilis. Pariatur, mollitia repellendus. Eos accusantium, ipsa inventore quas perferendis distinctio natus.</p>
 				</li>
