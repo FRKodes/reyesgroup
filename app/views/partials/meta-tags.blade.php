@@ -1,3 +1,4 @@
+<meta charset="UTF-8">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="description" content="Reyes Group, sitio web del grupo que desarrolla el concepto de reyes salón cantina.">
