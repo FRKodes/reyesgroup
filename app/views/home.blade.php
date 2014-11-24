@@ -12,7 +12,7 @@
 				</ol>
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="../images/local-reyes-aguascalientes.png" alt="First slide">
+						<img src="../images/local-reyes-aguascalientes.png" width="690" height="749" alt="First slide">
 						<div class="container">
 							<div class="carousel-caption alegre">
 								<span>Bienvenida</span><br>
@@ -22,7 +22,7 @@
 						</div>
 					</div>
 					<div class="item">
-						<img src="../images/local-reyes-aguascalientes.png" alt="Second slide">
+						<img src="../images/local-reyes-aguascalientes.png" width="690" height="749" alt="Second slide">
 						<div class="container">
 							<div class="carousel-caption alegre">
 								<span>Bienvenida</span><br>
@@ -32,7 +32,7 @@
 						</div>
 					</div>
 					<div class="item">
-						<img src="../images/local-reyes-aguascalientes.png" alt="Thrid slide">
+						<img src="../images/local-reyes-aguascalientes.png" width="690" height="749" alt="Thrid slide">
 						<div class="container">
 							<div class="carousel-caption alegre">
 								<span>Bienvenida</span><br>
@@ -87,7 +87,7 @@
 					<span class="bottom-deco"></span>
 					<p class="desc-top">Comida tradicional Mexicana que fusiona platillos de diferentes regiones del país con ingredientes y recetas de diversas partes del mundo.</p>
 					<figure>
-						<img src="../images/concepto-comida-reyes-cantina.png" alt="Concepto comida reyes cantina, Nuestros platillos">
+						<img src="../images/concepto-comida-reyes-cantina.png" alt="Concepto comida reyes cantina, Nuestros platillos" width="687" height="570">
 					</figure>
 					<h3>Nuestros platillos</h3>
 					<p class="desc-bottom">Comida tradicional Mexicana que fusiona platillos de diferentes regiones del país con ingredientes y recetas de diversas partes del mundo.</p>
@@ -97,7 +97,7 @@
 					<span class="bottom-deco"></span>
 					<p class="desc-top">La michelada mar y tierra o con tejuino y el shot de mezcal con alacrán son algunas de las bebidas más populares entre nuestros clientes.</p>
 					<figure>
-						<img src="../images/concepto-bebida-reyes-cantina.png" alt="Concepto bebida reyes cantina, Nuestras bebidas">
+						<img src="../images/concepto-bebida-reyes-cantina.png" alt="Concepto bebida reyes cantina, Nuestras bebidas"  width="687" height="570">
 					</figure>
 					<h3>Nuestras bebidas</h3>
 					<p class="desc-bottom">La michelada mar y tierra o con tejuino y el shot de mezcal con alacrán son algunas de las bebidas más populares entre nuestros clientes.</p>
@@ -107,7 +107,7 @@
 					<span class="bottom-deco"></span>
 					<p class="desc-top">Música tradicional mexicana en fusión con diferentes géneros como salsa, merengue, bachata y el top chart de pop del momento.</p>
 					<figure>
-						<img src="../images/concepto-musica-reyes-cantina.png" alt="Concepto música reyes cantina, Nuestra música">
+						<img src="../images/concepto-musica-reyes-cantina.png" alt="Concepto música reyes cantina, Nuestra música" width="787" height="695">
 					</figure>
 					<h3>Nuestra música</h3>
 					<p class="desc-bottom">Música tradicional mexicana en fusión con diferentes géneros como salsa, merengue, bachata y el top chart de pop del momento.</p>
@@ -117,7 +117,7 @@
 					<span class="bottom-deco"></span>
 					<p class="desc-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate veniam porro ex rem. Autem natus tenetur assumenda fugiat repellendus illum officia, dolorum exercitationem eum delectus quidem alias ducimus eligendi perferendis.</p>
 					<figure>
-						<img src="../images/concepto-musica-reyes-cantina.png" alt="Concepto cliente reyes cantina, Nuestros clientes">
+						<img src="../images/concepto-musica-reyes-cantina.png" alt="Concepto cliente reyes cantina, Nuestros clientes" width="787" height="695">
 					</figure>
 					<h3>Nuestros clientes</h3>
 					<p class="desc-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, architecto eligendi dolores fugit repellat nulla facere corrupti aliquam facilis. Pariatur, mollitia repellendus. Eos accusantium, ipsa inventore quas perferendis distinctio natus.</p>
@@ -162,7 +162,7 @@
 					<p class="title">GUADALAJARA</p>
 					<figure class="mapa gdl">
 						<a href="https://www.google.com.mx/maps/place/Av+Acueducto+4851,+Puerta+de+Hierro,+45116+Zapopan,+JAL/@20.7127918,-103.4096523,17z/data=!3m1!4b1!4m2!3m1!1s0x8428af014f328a15:0x54ad1758c66dcfe5" target="_blank" title="Ir al mapa de Reyes Salón Cantina Guadalajara en una ventana nueva">
-							<img src="images/mapa-reyes-cantina-guadalajara.jpg" alt="Mapa reyes cantina guadalajara">
+							<img src="images/mapa-reyes-cantina-guadalajara.jpg" alt="Mapa reyes cantina guadalajara" width="589" height="252">
 						</a>
 					</figure>
 					<p>
@@ -179,7 +179,7 @@
 					<p class="title">TIJUANA</p>
 					<figure class="mapa tj">
 						<a href="https://www.google.com.mx/maps/place/Blvd.+Agua+Caliente+4501,+Aviaci%C3%B3n,+22014+Tijuana,+BC/@32.5132511,-117.0069092,17z/data=!3m1!4b1!4m2!3m1!1s0x80d9481645d19231:0x93d50d2b1e64d8a5" target="_blank" title="Ir al mapa de Reyes Salón Cantina Tijuana en una ventana nueva">
-							<img src="images/mapa-reyes-cantina-tijuana.jpg" alt="Mapa reyes cantina tijuana">
+							<img src="images/mapa-reyes-cantina-tijuana.jpg" alt="Mapa reyes cantina tijuana" width="589" height="252">
 						</a>
 					</figure>
 					<p>
@@ -196,7 +196,7 @@
 					<p class="title">AGUASCALIENTES</p>
 					<figure class="mapa ags">
 						<a href="https://www.google.com.mx/maps/place/Luis+Donaldo+Colosio+511,+Jardines+de+La+Concepci%C3%B3n+II,+20120+Aguascalientes,+AGS/@21.9249091,-102.3026193,17z/data=!3m1!4b1!4m2!3m1!1s0x8429ef070f7571fb:0xb3c15dc699c3c05d" target="_blank" title="Ir al mapa de Reyes Salón Cantina Aguascalientes en una ventana nueva">
-							<img src="images/mapa-reyes-cantina-aguascalientes.jpg" alt="Mapa reyes cantina aguascalientes">
+							<img src="images/mapa-reyes-cantina-aguascalientes.jpg" alt="Mapa reyes cantina aguascalientes" width="589" height="252">
 						</a>
 					</figure>
 					<p>
