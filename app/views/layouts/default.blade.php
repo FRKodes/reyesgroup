@@ -1,9 +1,8 @@
 <!doctype html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<title>Reyes Group </title>
 	@include('partials.meta-tags')
+	<title>Reyes Group</title>
 	@include('partials.styles')
 </head>
 <body>
