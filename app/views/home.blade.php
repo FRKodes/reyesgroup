@@ -133,18 +133,18 @@
 		<section class="nuestros-clientes">
 			<span class="item-deco left-deco"></span><h2 class="nuestros-platillos">NUESTROS CLIENTES</h2><span class="item-deco right-deco"></span>
 			<span class="bottom-deco"></span>
-			<figure><img src="images/reyes-clientes-01.jpg" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-02.jpg" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-03.jpg" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-04.jpg" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-05.jpg" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-06.jpg" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-07.jpg" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-08.jpg" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-09.jpg" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-10.jpg" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-11.jpg" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-12.jpg" alt="Reyes img"></figure>
+			<figure><img src="images/reyes-clientes-01.jpg" width="186" height="186" alt="Reyes img"></figure>
+			<figure><img src="images/reyes-clientes-02.jpg" width="186" height="186" alt="Reyes img"></figure>
+			<figure><img src="images/reyes-clientes-03.jpg" width="186" height="186" alt="Reyes img"></figure>
+			<figure><img src="images/reyes-clientes-04.jpg" width="186" height="186" alt="Reyes img"></figure>
+			<figure><img src="images/reyes-clientes-05.jpg" width="186" height="186" alt="Reyes img"></figure>
+			<figure><img src="images/reyes-clientes-06.jpg" width="186" height="186" alt="Reyes img"></figure>
+			<figure><img src="images/reyes-clientes-07.jpg" width="186" height="186" alt="Reyes img"></figure>
+			<figure><img src="images/reyes-clientes-08.jpg" width="186" height="186" alt="Reyes img"></figure>
+			<figure><img src="images/reyes-clientes-09.jpg" width="186" height="186" alt="Reyes img"></figure>
+			<figure><img src="images/reyes-clientes-10.jpg" width="186" height="186" alt="Reyes img"></figure>
+			<figure><img src="images/reyes-clientes-11.jpg" width="186" height="186" alt="Reyes img"></figure>
+			<figure><img src="images/reyes-clientes-12.jpg" width="186" height="186" alt="Reyes img"></figure>
 		</section>
 		<section class="unidades" id="unidades">
 			<span class="item-deco left-deco"></span><h2>UNIDADES</h2><span class="item-deco right-deco"></span>
