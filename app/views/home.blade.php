@@ -55,7 +55,7 @@
 		<section class="filosofia" id="filosofia">
 			<div class="container">
 				<fugure class="corona">
-					<img src="../images/corona-reyes-logo-aplicacion.png" alt="Corona Reyes Logo Filosofía">
+					<img src="../images/corona-reyes-logo-aplicacion.png" width="556" height="465" alt="Corona Reyes Logo Filosofía">
 				</fugure>
 				<div class="title-container">
 					<span class="item-deco left-deco"></span><h2>FILOSOFÍA REYES</h2><span class="item-deco right-deco"></span>
