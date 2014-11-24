@@ -19,7 +19,7 @@ App::before(function($request)
 
 App::after(function($request, $response)
 {
-	if(App::Environment() == 'local')
+	if(App::Environment() != 'local')
 	{
 		if($response instanceof Illuminate\Http\Response)
 		{
