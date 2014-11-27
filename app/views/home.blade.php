@@ -32,12 +32,12 @@
 						</div>
 					</div>
 					<div class="item">
-						<img src="../images/local-reyes-aguascalientes.png" width="690" height="749" alt="Thrid slide">
+						<img src="../images/barra-reyes-cantina-vista-frontal.png" width="690" height="749" alt="barra reyes salón cantina vista frontal">
 						<div class="container">
 							<div class="carousel-caption alegre">
-								<span>Bienvenida</span><br>
-								<span>sucursal</span><br>
-								Distrito Federal
+								<span>fusión entre</span><br>
+								<span>tradicional</span><br>
+								y contemporáneo
 							</div>
 						</div>
 					</div>
@@ -61,7 +61,7 @@
 					<span class="item-deco left-deco"></span><h2>FILOSOFÍA REYES</h2><span class="item-deco right-deco"></span>
 					<span class="bottom-deco"></span>
 				</div>
-				<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, animi laudantium provident corporis necessitatibus sequi. Sunt officiis quisquam, tempore. Commodi id autem labore porro tempore assumenda cumque recusandae perspiciatis similique.</p>
+				<p class="text">Reyes Salón Cantina fusiona la escencia del México tradicional con el contemporaneo, logrando una mezcla única en la que el folklore de lo nuestro se respira y se siente a flor de piel, a través de sus sabores, su música y su gente, siempre en un ambiente festivo como son nuestras verdaderas celebraciones. <br><br>El mezcal y el tequila dando calor a las gargantas de los más valientes, el guacamole, arroz con leche deleitando paladares y el baile es algo que podrás encontrar cada noche en la primer cantina contemporanea de México.</p>
 			</div>
 		</section>
 		
