@@ -12,7 +12,7 @@
 				</ol>
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="../images/local-reyes-aguascalientes.png" width="690" height="749" alt="First slide">
+						<img src="../images/local-reyes-aguascalientes.png" width="690" height="749" alt="Bienvenida Sucursal Aguascalientes">
 						<div class="container">
 							<div class="carousel-caption alegre">
 								<span>Bienvenida</span><br>
@@ -22,12 +22,12 @@
 						</div>
 					</div>
 					<div class="item">
-						<img src="../images/local-reyes-aguascalientes.png" width="690" height="749" alt="Second slide">
+						<img src="../images/la-vitola-tuetano-reyes-salon-cantina-mas-tejuino-con-cerveza.png" width="690" height="749" alt="la vitola, tuétano en Reyes Salón Cantina más tejuino con cerveza">
 						<div class="container">
 							<div class="carousel-caption alegre">
-								<span>Bienvenida</span><br>
-								<span>sucursal</span><br>
-								Tijuana
+								<span>#ESDEREYES</span><br>
+								<span>LA CANTINA</span><br>
+								GOURMET DE MÉXICO
 							</div>
 						</div>
 					</div>
@@ -86,29 +86,38 @@
 					<span class="item-deco left-deco"></span><h2>NUESTROS PLATILLOS</h2><span class="item-deco right-deco"></span>
 					<span class="bottom-deco"></span>
 					<p class="desc-top">Comida tradicional Mexicana que fusiona platillos de diferentes regiones del país con ingredientes y recetas de diversas partes del mundo.</p>
-					<figure>
-						<img src="../images/concepto-comida-reyes-cantina.png" alt="Concepto comida reyes cantina, Nuestros platillos" width="687" height="570">
-					</figure>
+					<div id="carousel_food" class="carousel_food slide">
+						<div class="carousel-inner" role="listbox">
+							<div class="item active"><img src="../images/comida-platillo-el-mil-amores-reyes-cantina.png" width="687" height="570" alt="Platillo 'El mil amores' en Reyes Salón Cantina"></div>
+							<div class="item"><img src="../images/comida-platillo-tongolele-reyes-cantina.png" width="687" height="570" alt="Quesadilla 'tongolele' en Reyes Salón Cantina"></div>
+						</div>
+					</div>
 					<h3>Nuestros platillos</h3>
 					<p class="desc-bottom">Comida tradicional Mexicana que fusiona platillos de diferentes regiones del país con ingredientes y recetas de diversas partes del mundo.</p>
 				</li>
 				<li class="bebida">
 					<span class="item-deco left-deco"></span><h2>NUESTRAS BEBIDAS</h2><span class="item-deco right-deco"></span>
 					<span class="bottom-deco"></span>
-					<p class="desc-top">La michelada mar y tierra o con tejuino y el shot de mezcal con alacrán son algunas de las bebidas más populares entre nuestros clientes.</p>
-					<figure>
-						<img src="../images/concepto-bebida-reyes-cantina.png" alt="Concepto bebida reyes cantina, Nuestras bebidas"  width="687" height="570">
-					</figure>
+					<p class="desc-top">El shot de mezcal con alacrán y la michelada mar y tierra o con tejuino son algunas de las bebidas más populares entre nuestros clientes.</p>
+					<div id="carousel_beberages" class="carousel_beberages slide">
+						<div class="carousel-inner" role="listbox">
+							<div class="item active"><img src="../images/bebida-shot-de-mexcal-con-alacran.png" width="687" height="570" alt="El famoso shot de mezcal con alacrán"></div>
+							<div class="item"><img src="../images/bebida-michelada-mar-y-tierra-reyes-cantina.png" width="687" height="570" alt="La michelada mar y tierra o con tejuino."></div>
+						</div>
+					</div>
 					<h3>Nuestras bebidas</h3>
-					<p class="desc-bottom">La michelada mar y tierra o con tejuino y el shot de mezcal con alacrán son algunas de las bebidas más populares entre nuestros clientes.</p>
+					<p class="desc-bottom">El shot de mezcal con alacrán y la michelada mar y tierra o con tejuino son algunas de las bebidas más populares entre nuestros clientes.</p>
 				</li>
 				<li class="musica">
 					<span class="item-deco left-deco"></span><h2>NUESTRA MÚSICA</h2><span class="item-deco right-deco"></span>
 					<span class="bottom-deco"></span>
 					<p class="desc-top">Música tradicional mexicana en fusión con diferentes géneros como salsa, merengue, bachata y el top chart de pop del momento.</p>
-					<figure>
-						<img src="../images/concepto-musica-reyes-cantina.png" alt="Concepto música reyes cantina, Nuestra música" width="787" height="695">
-					</figure>
+					<div id="carousel_musica" class="carousel_musica slide">
+						<div class="carousel-inner" role="listbox">
+							<div class="item active"><img src="../images/concepto-musica-reyes-cantina.png" width="687" height="570" alt="Música tradicional mexicana en fusión con diferentes géneros como salsa, merengue, bachata y el top chart de pop del momento."></div>
+							<div class="item"><img src="../images/concepto-musica-trioker-reyes-cantina.png" width="687" height="570" alt="Los trioker en Reyes Salón Canitna"></div>
+						</div>
+					</div>
 					<h3>Nuestra música</h3>
 					<p class="desc-bottom">Música tradicional mexicana en fusión con diferentes géneros como salsa, merengue, bachata y el top chart de pop del momento.</p>
 				</li>
@@ -234,7 +243,8 @@
 				<div class="line">{{ Form::submit('Enviar mensaje', ['class'=>'submitBtn']) }}</div>
 			{{ Form::close()}}
 			<div class="sent_mail_alert">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				Gracias! <br>
+				Tu comentario ha sido enviado exitosamente.
 			</div>
 		</section>
 	</section>

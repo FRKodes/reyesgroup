@@ -53,7 +53,13 @@ $( document ).ready(function() {
         }, 500);
     });    
     /*Carousel*/
-    $('.carousel').carousel();
+    $('#myCarousel').carousel();
+    
+    if ($( window ).width() >= 1000){
+        $('#carousel_food').carousel({ interval: 5050 });
+        $('#carousel_beberages').carousel({ interval: 5100 });
+        $('#carousel_musica').carousel({ interval: 5150 });
+    }
     /*validator*/
     $(function(){
         var formSettings = {
@@ -85,7 +91,7 @@ $( document ).ready(function() {
 
     
     
-    console.log($( window ).width());
+    // console.log($( window ).width());
 
     if ($( window ).width() >= 1280) {
         // Init Skrollr

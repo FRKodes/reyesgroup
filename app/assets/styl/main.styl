@@ -240,10 +240,10 @@ section
 	figure
 		display block
 		float left
-		height 160px
-		margin 0
+		height 150px
+		margin 0 10px 10px 0
 		padding 0
-		width 160px
+		width 150px
 		img
 			display block
 			float left
@@ -251,6 +251,23 @@ section
 			width 150px
 .hsContainer 
 	display none
+
+.carousel_food
+.carousel_beberages
+.carousel_musica
+	height auto
+	margin 0
+	padding 0
+	position relative
+	.carousel-inner
+		.item
+			height auto
+			padding-bottom 0px
+			img
+				display block
+				width 90%
+				height auto
+				margin 0 auto
 body
 	font-family 'Lato', sans-serif
 	background transparent url(../images/patron-fondo-oscuro.png) repeat center top
@@ -908,6 +925,15 @@ body
 				display none
 		.nuestros-clientes
 			display block
+			figure
+				overflow hidden
+				img:hover
+					width 140%
+					height auto
+					cursor pointer
+					margin-left -20%
+					margin-top -20%
+					transition all 0.2s ease
 		.unidades
 			.unidades-list
 				display none
@@ -1027,10 +1053,9 @@ body
 			figure
 				display block
 				float left
-				height 191px
-				margin 0
+				height 181px
 				padding 0
-				width 191px
+				width 181px
 				img
 					display block
 					float left
