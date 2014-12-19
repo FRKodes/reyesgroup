@@ -1,0 +1,1134 @@
+@charset "utf-8"
+
+@font-face
+    font-family 'alegre'
+    src url('./fonts/alegre_sans-webfont.eot')
+    src url('./fonts/alegre_sans-webfont.eot?#iefix') format('embedded-opentype'), url('./fonts/alegre_sans-webfont.woff2') format('woff2'), url('./fonts/alegre_sans-webfont.woff') format('woff'), url('./fonts/alegre_sans-webfont.ttf') format('truetype'), url('./fonts/alegre_sans-webfont.svg#alegre_sansregular') format('svg')
+    font-weight normal
+    font-style normal
+.alegre
+	font-family 'alegre'
+html
+	font-family sans-serif
+	-ms-text-size-adjust 100%
+	-webkit-text-size-adjust 100%
+
+body
+	margin 0
+	padding 0
+
+article
+aside
+details
+figcaption
+figure
+footer
+header
+hgroup
+main
+menu
+nav
+section
+summary
+	display block
+
+audio
+canvas
+progress
+video
+	display inline-block
+	vertical-align baseline
+
+audio
+	&:not([controls])
+		display none
+		height 0
+
+[hidden]
+template
+	display none
+
+a
+	background-color transparent
+
+a:active
+a:hover
+	outline 0
+
+abbr[title]
+	border-bottom 1px dotted
+
+b
+strong
+	font-weight bold
+
+dfn
+	font-style italic
+
+h1
+	font-size 2em
+	margin 0.67em 0
+
+mark
+	background #ff0
+	color #000
+
+small
+	font-size 80%
+
+sub
+sup
+	font-size 75%
+	line-height 0
+	position relative
+	vertical-align baseline
+
+sup
+	top -0.5em
+
+sub
+	bottom -0.25em
+
+img
+	border 0
+
+svg
+	&:not(:root)
+		overflow hidden
+
+figure
+	margin 1em 40px
+
+hr
+	-moz-box-sizing content-box
+	box-sizing content-box
+	height 0
+
+pre
+	overflow auto
+
+code
+kbd
+pre
+samp
+	font-family monospace, monospace
+	font-size 1em
+
+button
+input
+optgroup
+select
+textarea
+	color inherit
+font inherit
+	margin 0
+
+button
+	overflow visible
+
+button
+select
+	text-transform none
+
+button
+html input[type="button"]
+input[type="reset"]
+input[type="submit"]
+	-webkit-appearance button
+	cursor pointer
+
+button[disabled]
+html input[disabled]
+	cursor default
+
+button::-moz-focus-inner
+input::-moz-focus-inner
+	border 0
+	padding 0
+
+input
+	line-height normal
+
+input[type="checkbox"]
+input[type="radio"]
+	box-sizing border-box
+	padding 0
+
+input[type="number"]::-webkit-inner-spin-button
+input[type="number"]::-webkit-outer-spin-button
+	height auto
+
+input[type="search"]
+	-webkit-appearance textfield
+	-moz-box-sizing content-box
+	-webkit-box-sizing content-box
+	box-sizing content-box
+
+input[type="search"]::-webkit-search-cancel-button
+input[type="search"]::-webkit-search-decoration
+	-webkit-appearance none
+
+fieldset
+	border 1px solid #c0c0c0
+	margin 0 2px
+	padding 0.35em 0.625em 0.75em
+
+legend
+	border 0
+	padding 0
+
+textarea
+	overflow auto
+
+optgroup
+	font-weight bold
+
+table
+	border-collapse collapse
+	border-spacing 0
+
+td
+th
+	padding 0
+	
+/*Here comes the true styles*/
+.alegre
+	font-family 'alegre', sans-serif
+p.text
+	text-align left
+	padding 0 20px
+p.alert
+	color red
+	display none
+	line-height 1em
+	margin 0
+	padding 0
+.item-deco
+	display inline-block
+	width 44px
+	height 16px
+	overflow hidden
+.left-deco
+	background transparent url(../images/sprite-reyes-cantina.png) no-repeat left -125px
+.right-deco
+	background transparent url(../images/sprite-reyes-cantina.png) no-repeat left -144px
+.bottom-deco
+	background transparent url(../images/sprite-reyes-cantina.png) no-repeat 0 -110px
+	display block
+	height 14px
+	margin -10px auto 16px auto
+	width 150px
+h2
+	display inline-block
+	font-size 2.6em
+	font-family 'alegre'
+	&.franquicia
+		text-align left
+		float left
+		margin-left 5%
+		font-size 1.8em
+h2.concepto
+	display none
+h3
+	font-family 'alegre'
+	font-size 2em
+	display none
+.desc-top
+	display block
+	padding-top 30px
+.desc-bottom
+	display none
+section
+	text-align center
+.franquicias
+.aviso
+	padding-top 60px
+.show
+	display block
+.nuestros-clientes
+	display none
+	height auto
+	margin 0 auto
+	padding-bottom 50px
+	width 960px
+	figure
+		display block
+		float left
+		height 150px
+		margin 0 10px 10px 0
+		padding 0
+		width 150px
+		img
+			display block
+			float left
+			height 150px
+			width 150px
+.hsContainer 
+	display none
+
+.carousel_food
+.carousel_beberages
+.carousel_musica
+	height auto
+	margin 0
+	padding 0
+	position relative
+	.carousel-inner
+		.item
+			height auto
+			padding-bottom 0px
+			img
+				display block
+				width 90%
+				height auto
+				margin 0 auto
+body
+	font-family 'Lato', sans-serif
+	background transparent url(../images/patron-fondo-oscuro_.png) repeat center top
+	overflow auto
+	width 100%
+	font-size 1.6em
+	line-height 1.4em
+	.navbar
+		border none
+		font-family 'Lato'
+	.navbar-default 
+		background-color transparent
+		margin 0
+		padding 0
+		.navbar-toggle
+			border-color transparent
+			&:hover
+				background-color transparent
+		.navbar-nav
+			margin 0 -15px 7.5px -15px
+			// background rgba(black, .9)
+		.navbar-nav .active a
+			background-color gray
+		.navbar-brand
+		.navbar-nav li a
+			color white
+		.navbar-brand
+			background transparent url(../images/sprite-reyes-cantina.png) no-repeat -110px top
+			display block
+			height 37px
+			margin 5px 0 0 15px
+			overflow hidden
+			width 38px
+			display none
+		.navbar-nav .active a
+			color white
+	header.transparency .navbar-default
+		background rgba(black, .7)
+	.logo-slider-container
+		background black url(../images/patron-fondo-oscuro.png) repeat center top
+		height auto
+		overflow hidden
+		padding-top 16px
+		position relative
+		.logo-reyes-top
+			background transparent url(../images/sprite-reyes-cantina.png) no-repeat left top
+			display block
+			height 100px
+			margin 0 auto 20px auto
+			width 100px
+			text-align center
+			transition opacity 1s ease
+		.carousel
+			height auto
+			margin -70px 0 0 0
+			padding 0
+			position relative
+			text-align center
+		.carousel-caption
+			color white
+			display inline-block
+			font-size 3em
+			font-weight bold
+			line-height .8em
+			margin -160px auto 0 auto
+			position relative
+			padding 0
+			top 0
+			left 0
+			text-transform uppercase
+			z-index 10
+			span
+				font-size 1.5em
+				line-height .7em
+		.carousel .item
+			height auto
+			padding-bottom 60px
+		.carousel-inner > .item > img
+			display block
+			height auto
+			width 100%
+	.filosofia
+		height auto
+		overflow hidden
+		width 100%
+		.corona
+			display block
+			height auto
+			margin 30px 0 0
+			overflow hidden
+			text-align center
+			width 100%
+			img
+				height auto
+				margin 0 auto
+				width 90%
+		.title-container
+			margin-top -40px
+	.platillos
+		.concepto-title
+			font-size 1.8em
+			line-height .2em
+			display inline-block
+			margin-top 60px
+			padding-bottom 0
+		.item-deco.large
+		.bottom-deco.large
+			display none
+		.photos
+			display block
+			margin -25px 0 40px 0
+			padding 0
+			text-align center
+			width 100%
+			overflow hidden
+			li
+				display none
+				img
+					display block
+					height auto
+					width 100%
+				p.desc-top
+					padding 0 40px
+				.block-clientes
+					float left
+					height auto
+					margin 0
+					padding 0 0 100px 0
+					width 100%
+					text-align center
+					figure
+						display inline-block
+						height auto
+						margin 0
+						padding 0
+						width 45%
+						img
+							display block
+							height auto
+							width 98%
+		.steps
+			display block
+			height auto
+			margin -130px 0 0
+			position relative
+			text-align center
+			width 100%
+			padding 0 0 60px 0
+			overflow hidden
+			li
+				background black url(../images/sprite-reyes-cantina.png) no-repeat
+				border-radius 50%
+				display inline-block
+				height 45px
+				margin 0 15px
+				width 45px
+				&:first-of-type
+					margin-left 0
+				&.comida
+					background-position -53px -219px
+				&.bebida
+					background-position -4px -219px
+				&.musica
+					background-position -105px -219px
+				&.clientes
+					background-position -155px -219px
+				a
+					width 100%
+					height 100%
+					display block
+					&:hover
+						cursor pointer
+	.unidades
+		display block
+		height auto
+		overflow hidden
+		width 100%
+		p
+			text-align left
+			padding 0 20px
+		ul
+			display block
+			height auto
+			text-align center
+			width 100%
+			padding 0
+			margin 0
+			li
+				width 45px
+				height 45px
+				display block
+				background black
+				border-radius 50%
+				display inline-block
+				margin 0 9px
+				&:first-of-type
+					margin-left 0
+				a
+					width 100%
+					height 100%
+					display block
+					background transparent url(../images/sprite-reyes-cantina.png) no-repeat
+					&:hover
+						cursor pointer
+					&.gdl
+						background-position -4px -168px
+					&.ags
+						background-position -53px -168px
+					&.tj
+						background-position -106px -168px
+					&.df
+						background-position -154px -168px
+					&.pc
+						background-position -206px -168px
+					span
+						visibility hidden
+		.container-info
+			display block
+			height auto
+			overflow hidden
+			padding-top 22px
+			width 100%
+			.unidad
+				display block
+				height auto
+				overflow hidden
+				width 100%
+				&.tj
+				&.df
+				&.pc
+				&.ags
+					display none
+				.title
+					font-family 'alegre'
+					font-size 2em
+					line-height 1em
+					&.prox
+						font-family 'Lato'
+						color gray
+						font-size 1em
+						text-transform capitalize
+						line-height .1em
+				.mapa
+					border 1px solid black
+					display block
+					height auto
+					margin 0 auto 10px auto
+					overflow hidden
+					padding 0
+					width 90%
+					img
+						display block
+						height auto
+						width 100%
+	.contacto
+		width 100%
+		height auto
+		display block
+		overflow hidden
+		padding 0
+		position relative
+		margin 0
+		.line
+			width 90%
+			height auto
+			padding-bottom 20px
+			margin 0 auto
+			&.error
+				input
+				textarea
+					border-color red
+				p.alert
+					display block
+			input
+			select
+			textarea
+				width 100%
+				background white
+				border 1px solid black
+				height 36px
+				border-radius 2px
+				padding 0 10px
+			textarea
+				height 80px
+				resize none
+				padding 10px
+			.submitBtn
+				width 70%
+				margin 0 auto
+				background black
+				color white
+		.line_check
+			text-align left
+			display block
+			margin 0 auto
+			font-size .8em
+			padding-bottom 0
+			input[type="checkbox"]
+				display inline-block
+				height 30px
+				width 20px
+				vertical-align middle
+			label
+				display inline-block
+				text-align left
+				margin-bottom 0
+				line-height 30px
+				vertical-align middle
+			a
+				display inline-block
+		.sent_mail_alert
+			background black
+			color white
+			display none
+			font-size 1.1em
+			height auto
+			line-height 1.2em
+			margin -255px auto 120px auto
+			overflow hidden
+			padding 40px 0
+			position relative
+			width 90%
+	footer
+		padding 20px 0
+		position relative
+		height auto
+		display block
+		a
+			color black
+			text-decoration none
+			&:hover
+				text-decoration underline
+			&:visited
+				color black
+	#franquiciasBtn
+		margin-top 50px
+@media screen and (min-width:768px)
+	h2
+		font-size 3.4em
+		&.franquicia
+			margin-left 10%
+	.item-deco
+		display inline-block
+		width 81px
+		height 39px
+		overflow hidden
+	.left-deco
+		background transparent url(../images/sprite-reyes-cantina.png) no-repeat -498px -29px
+		margin-right 20px
+	.right-deco
+		background transparent url(../images/sprite-reyes-cantina.png) no-repeat -498px -67px
+		margin-left 20px
+	.bottom-deco
+		background transparent url(../images/sprite-reyes-cantina.png) no-repeat -498px 0px
+		display block
+		height 28px
+		margin -10px auto 16px auto
+		width 301px
+	body.franquicias
+		.navbar-nav .active a
+			color white
+		header.transparency .navbar-default .navbar-nav li a
+			color white
+		.navbar-nav li a
+			color black
+	body
+		font-size 2em
+		line-height 1.6em
+		.navbar-nav
+			padding-left 50px
+			li
+				font-family 'Lato'
+				font-size .7em
+				font-weight 100
+				text-transform uppercase
+				padding 0 9px
+				margin 0
+				transition margin 1s ease
+				a
+					padding-left 0
+					padding-right 0
+					text-align center
+				&.unidades
+					margin-left 130px
+					padding 0 20px
+					float left
+					width auto
+					display inline-block
+		.transparency
+			.navbar-nav
+				padding-left 30px
+				transition padding 1s ease
+				li
+					font-size .6em
+					padding 0 10px
+					transition margin 1s ease
+					&.unidades
+						margin-left 10px
+		p.text
+			padding 0 70px
+		.logo-slider-container
+			padding-top 30px
+			.logo-reyes-top
+				background transparent url(../images/sprite-reyes-cantina.png) no-repeat -256px top
+				height 242px
+				width 242px
+			.carousel
+				margin -140px 0 0 0
+			.carousel .item
+				padding-bottom 60px
+			.carousel-inner > .item > img
+				width 700px
+				margin 0 auto
+		.filosofia
+			.corona
+				img
+					width 600px
+			.title-container
+				margin-top -50px
+		.platillos
+			.photos
+				margin -25px 0 40px 0
+				li .block-clientes
+					padding 0 0 200px 0
+			.steps
+				margin -230px 0 0
+				padding 0 0 120px 0
+				overflow hidden
+				li
+					height 70px
+					margin 0 30px
+					width 70px
+					&.comida
+						background-position -500px -171px
+					&.bebida
+						background-position -570px -171px
+					&.musica
+						background-position -645px -171px
+					&.clientes
+						background-position -719px -171px
+		.unidades
+			p
+				padding 0 70px
+			ul
+				display block
+				height auto
+				text-align center
+				width 100%
+				li
+					width 70px
+					height 70px
+					margin 0 16px
+					overflow hidden
+					a
+						&.gdl
+							background-position -499px -101px
+						&.ags
+							background-position -573px -101px
+						&.tj
+							background-position -646px -101px
+						&.df
+							background-position -719px -101px
+						&.pc
+							background-position -792px -101px
+			.container-info
+				padding-top 40px
+				.unidad
+					display block
+					height auto
+					overflow hidden
+					width 100%
+					.title
+						font-size 2.3em
+						line-height 1.4em
+					.mapa
+						width 82%
+		.contacto
+			.line
+				width 80%
+				input
+				textarea
+					height 50px
+				textarea
+					height 120px
+				.submitBtn
+					width 50%
+			.sent_mail_alert
+				width 80%
+				padding 80px 0
+				font-size 1.2em
+				line-height 1.3em
+				margin -340px auto 180px auto
+				position relative
+		footer
+			padding 20px 0
+			position relative
+			height auto
+			margin-bottom 140px
+			display block
+@media screen and (min-width:1000px)
+	h2
+		font-size 2.8em
+		&.franquicia
+			margin-left 0
+			display block
+			width 100%
+			text-align center
+	h3
+		display block
+	.desc-top
+		display none
+	.desc-bottom
+		display block
+	.item-deco
+		display inline-block
+		width 81px
+		height 39px
+		overflow hidden
+	.left-deco
+		background transparent url(../images/sprite-reyes-cantina.png) no-repeat -498px -29px
+		margin-right 20px
+	.right-deco
+		background transparent url(../images/sprite-reyes-cantina.png) no-repeat -498px -67px
+		margin-left 20px
+	.bottom-deco
+		background transparent url(../images/sprite-reyes-cantina.png) no-repeat -498px 0px
+		display block
+		height 28px
+		margin -10px auto 16px auto
+		width 301px
+	body
+		.navbar-nav
+			padding-left 100px
+			li
+				font-family 'Lato'
+				font-size .8em
+				font-weight 100
+				text-transform uppercase
+				padding 0 15px
+				margin 0 10px 0 0
+				transition margin 1s ease
+				a
+					padding-left 0
+					padding-right 0
+					text-align center
+				&.unidades
+					margin-left 100px
+					padding 0 20px
+					float left
+					width auto
+					display inline-block
+		.transparency
+			.navbar-nav
+				padding-left 30px
+				transition padding 1s ease
+				li
+					font-size .8em
+					padding 0 10px
+					transition margin 1s ease
+					&.unidades
+						margin-left 10px
+		.logo-slider-container
+			padding-top 22px
+			.logo-reyes-top
+				background-position -866px 0
+				height 136px
+				width 136px
+			.carousel
+				height auto
+				margin -70px 0 0 0
+				padding 0
+				position relative
+				text-align center
+			.carousel-caption
+				float right
+				font-size 4em
+				line-height .8em
+				margin 0
+				position relative
+				span
+					font-size 1.5em
+					line-height .7em
+			.carousel .item
+				height 550px
+				padding-bottom 60px
+				.container
+					display block
+					float left
+					height auto
+					overflow hidden
+					padding-top 130px
+					position relative
+					width 46%
+			.carousel-inner > .item > img
+				display block
+				float right
+				height auto
+				left 46%
+				position absolute
+				width 490px
+		.filosofia
+			padding-top 50px
+			.container
+				display block
+				margin 0 auto
+				overflow hidden
+				padding-bottom 60px
+				width 960px
+				.corona
+					float left
+					width 360px
+					padding 130px 0 70px 0
+					img
+						width 350px
+				.title-container
+					float left
+					margin 0
+					padding 50px 0 0 0
+					width 568px
+		.hsContainer 
+		    display table
+		    table-layout fixed
+		    width 100%
+		    // height 100%
+		    height 570px
+		    overflow hidden
+		    position relative
+		    opacity 0
+		    display block
+		.hsContent 
+		    max-width 450px
+		    margin -150px auto 0 auto
+		    display table-cell
+		    vertical-align middle
+		    color #ebebeb
+		    padding 0 8%
+		    text-align center
+		.bcg 
+		    background-position center center
+		    background-repeat no-repeat
+		    background-attachment fixed
+		    background-size cover
+		    height 100%
+		    width 100%
+		/* Slide 1 */
+		#slide-1 .bcg
+			background-image url('../images/alacran-reyes-cover.jpg')
+			
+
+		.platillos
+			h2.nuestros-platillos
+				display none
+			h2.concepto
+				display inline-block
+				font-size 2.8em
+			h2.concepto-title
+				display inline-block
+				font-size 2.8em
+				margin-top 40px
+				padding-bottom 30px
+			.item-deco.large
+				display inline-block
+			.bottom-deco.large
+				display block
+			.photos
+				margin 0 auto
+				overflow hidden
+				padding-bottom 50px
+				width 960px
+				li
+					display inline-block
+					float left
+					height auto
+					text-align left
+					width 33.3%
+					&:first-of-type figure
+						padding-top 30px
+					figure
+						height 260px
+						padding-top 30px
+						img
+							height auto
+							width 100%
+					p
+					h3
+						padding-left 30px
+					h2
+					span
+						display none
+					&.clientes
+						display none
+						
+			.steps
+				display none
+		.nuestros-clientes
+			display block
+			figure
+				overflow hidden
+				img:hover
+					width 140%
+					height auto
+					cursor pointer
+					margin-left -20%
+					margin-top -20%
+					transition all 0.2s ease
+		.unidades
+			.unidades-list
+				display none
+			.container-info
+				width 960px
+				margin 0 auto
+				padding-top 0
+				.unidad
+					width 319px
+					float left
+					padding 0 0 30px 0
+					margin 0
+					&.tj
+					&.df
+					&.pc
+					&.ags
+						display block
+					&.df
+						margin-left 165px
+					figure
+						width 73px
+						height 70px
+						margin 0 auto
+						background transparent url(../images/sprite-reyes-cantina.png) no-repeat -866px -165px
+					p.title
+						text-align center
+						font-size 2em
+						padding 0
+					p
+						padding 25px 0 0 0
+						text-align center
+						font-size .9em
+						line-height 1.4em
+		.contacto
+			.line
+				width 460px
+				.submitBtn
+					width 70%
+			.sent_mail_alert
+				width 460px
+				padding 80px 0
+				font-size 1.2em
+				line-height 1.3em
+				margin -340px auto 180px auto
+				position relative
+		footer
+			margin-bottom 40px
+			p.text
+				text-align center
+				padding-top 30px
+		p.text
+			height auto
+			margin 0 auto
+			padding 0
+			width 460px
+		p.text.aviso
+			width 800px
+			padding-top 30px
+		
+@media screen and (min-width:1200px)
+	body
+		.navbar-nav
+			li.unidades
+					margin-left 260px
+@media screen and (min-width:1280px)
+	body
+		.navbar-nav
+			li
+				font-size 1em
+				padding 0 20px
+				margin 0 10px 0 0
+				&.unidades
+					margin-left 130px
+		.transparency
+			.navbar-nav
+				padding-left 30px
+				transition padding 1s ease
+				li
+					font-size .8em
+					padding 0 10px
+					transition margin 1s ease
+					&.unidades
+						margin-left 10px
+		.filosofia
+			.container
+				width 1150px
+				.corona
+					float left
+					width 490px
+					img
+						width 480px
+				.title-container
+					float left
+					margin 0
+					padding 50px 0 0 0
+					width 630px
+				p.text
+					float right
+					padding 40px 0 0 0
+					width 630px
+		.platillos
+			.photos
+				margin 0 auto
+				overflow hidden
+				padding-bottom 50px
+				width 1150px
+				li
+					display inline-block
+					float left
+					height auto
+					text-align left
+					width 33.3%
+					figure
+						height 300px
+						padding-top 30px
+						img
+							height auto
+							width 100%
+					p
+					h3
+						padding-left 30px
+					h3
+						text-align center
+		.nuestros-clientes
+			width 1150px
+			figure
+				display block
+				float left
+				height 181px
+				padding 0
+				width 181px
+				img
+					display block
+					float left
+					height 180px
+					width 180px
+		.unidades
+			.container-info
+				width 1150px
+				.unidad
+					width 383px
+					p.prox
+						font-size 3em
+					&.df
+						margin-left 190px
