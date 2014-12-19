@@ -5,7 +5,7 @@
 	<title>Reyes Group</title>
 	@include('partials.styles')
 </head>
-<body>
+<body class="{{ Request::path() }}">
 	<header>@include('partials.nav')</header>
 	@yield('content')
 	<footer>@include('partials.footer')</footer>

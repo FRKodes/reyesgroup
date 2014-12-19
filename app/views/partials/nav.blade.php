@@ -11,12 +11,21 @@
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<li><a href="#home">Home</a></li>
-				<li><a href="#filosofia">Filosofía</a></li>
-				<li><a href="#nuestros-platillos">Concepto</a></li>
-				<li class="unidades"><a href="#unidades">Unidades</a></li>
-				<li><a href="#contacto">Contacto</a></li>
-				<li><a href="#franquicias">Franquicias</a></li>
+				@if(Request::path() == "franquicias")
+					<li><a href="/">Home</a></li>
+					<li><a href="/#filosofia">Filosofía</a></li>
+					<li><a href="/#nuestros-platillos">Concepto</a></li>
+					<li class="unidades"><a href="/#unidades">Unidades</a></li>
+					<li><a href="/#contacto">Contacto</a></li>
+					<li><a href="/franquicias">Franquicias</a></li>
+				@else
+					<li><a href="#home">Home</a></li>
+					<li><a href="#filosofia">Filosofía</a></li>
+					<li><a href="#nuestros-platillos">Concepto</a></li>
+					<li class="unidades"><a href="#unidades">Unidades</a></li>
+					<li><a href="#contacto">Contacto</a></li>
+					<li><a href="/franquicias">Franquicias</a></li>
+				@endif
 			</ul>
 		</div>
 	</div>

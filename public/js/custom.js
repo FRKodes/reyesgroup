@@ -15,7 +15,7 @@ b=RegExp(b,c);return a.val().match(b)?!0:!1};c.checkRegExp=function(a,b){return 
 $( document ).ready(function() {
     /*sticky header*/
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 100){
+        if ($(this).scrollTop() > 25){
             $('header').addClass("transparency");
             $('.logo-reyes-top').css("opacity","0");
             $('.navbar-brand').css("display","block");
@@ -85,14 +85,55 @@ $( document ).ready(function() {
             autoDetect : true, debug : true
         };
         var $validate = $('#contactForm').validate(formSettings).data('validate');
+
+        /**/
+        var formSettingsFranquicia = {
+            singleError : function($field, rules){ $field.closest('.line').removeClass('valid').addClass('error'); },
+            singleSuccess : function($field, rules){ $field.closest('.line').removeClass('error').addClass('valid'); },
+            overallSuccess : function(){
+                var form    = $('#franquicias'),
+                    name    = form.find( "input[name='nombre']" ).val(),
+                    apellidos    = form.find( "input[name='apellidos']" ).val(),
+                    email   = form.find( "input[name='email']" ).val(),
+                    action  = form.attr( "action"),
+                    url     = action;
+                var posting = $.post( 
+                    url, { n: name, e: email, m: message }
+                    );
+                posting.done(function( data ) {
+                    console.log(data);
+                    $('#franquicias')[0].reset();
+                    $('.sent_mail_alert').fadeIn().delay(2000).fadeOut();
+                });
+            },
+            overallError : function($form, fields){ /*Do nothing, just show the error fields*/ },
+            autoDetect : true, debug : true
+        };
+        var $validate = $('#franquicias').validate(formSettingsFranquicia).data('validate');
     });
     
+    $('select[name="local"]').on('change', function(){
+        $('input[name="ubicacion_local"]').css('display','none').val('');
+        if ($(this).val() !== '' && $(this).val() !== 'ninguno') {
+            $('input[name="ubicacion_local"]').css('display','block');
+        };
+    });
 
+    $('select[name="negocio_propio"]').on('change', function(){
+        $('input[name="cual_negocio"]').css('display','none').val('');
+        if ($(this).val() !== '' && $(this).val() !== 'no') {
+            $('input[name="cual_negocio"]').css('display','block');
+        };
+    });
 
+    $('select[name="compromiso_franquicia"]').on('change', function(){
+        $('input[name="porque_compromiso"]').css('display','none').val('');
+        if ($(this).val() !== '' && $(this).val() !== 'no') {
+            $('input[name="porque_compromiso"]').css('display','block');
+        };
+    });
     
     
-    // console.log($( window ).width());
-
     if ($( window ).width() >= 1280) {
         // Init Skrollr
         var s = skrollr.init({

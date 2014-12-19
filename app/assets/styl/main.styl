@@ -197,6 +197,12 @@ th
 p.text
 	text-align left
 	padding 0 20px
+p.alert
+	color red
+	display none
+	line-height 1em
+	margin 0
+	padding 0
 .item-deco
 	display inline-block
 	width 44px
@@ -216,6 +222,11 @@ h2
 	display inline-block
 	font-size 2.6em
 	font-family 'alegre'
+	&.franquicia
+		text-align left
+		float left
+		margin-left 5%
+		font-size 1.8em
 h2.concepto
 	display none
 h3
@@ -229,6 +240,9 @@ h3
 	display none
 section
 	text-align center
+.franquicias
+.aviso
+	padding-top 60px
 .show
 	display block
 .nuestros-clientes
@@ -270,7 +284,7 @@ section
 				margin 0 auto
 body
 	font-family 'Lato', sans-serif
-	background transparent url(../images/patron-fondo-oscuro.png) repeat center top
+	background transparent url(../images/patron-fondo-oscuro_.png) repeat center top
 	overflow auto
 	width 100%
 	font-size 1.6em
@@ -539,7 +553,10 @@ body
 				input
 				textarea
 					border-color red
+				p.alert
+					display block
 			input
+			select
 			textarea
 				width 100%
 				background white
@@ -556,6 +573,25 @@ body
 				margin 0 auto
 				background black
 				color white
+		.line_check
+			text-align left
+			display block
+			margin 0 auto
+			font-size .8em
+			padding-bottom 0
+			input[type="checkbox"]
+				display inline-block
+				height 30px
+				width 20px
+				vertical-align middle
+			label
+				display inline-block
+				text-align left
+				margin-bottom 0
+				line-height 30px
+				vertical-align middle
+			a
+				display inline-block
 		.sent_mail_alert
 			background black
 			color white
@@ -580,9 +616,13 @@ body
 				text-decoration underline
 			&:visited
 				color black
+	#franquiciasBtn
+		margin-top 50px
 @media screen and (min-width:768px)
 	h2
 		font-size 3.4em
+		&.franquicia
+			margin-left 10%
 	.item-deco
 		display inline-block
 		width 81px
@@ -600,6 +640,13 @@ body
 		height 28px
 		margin -10px auto 16px auto
 		width 301px
+	body.franquicias
+		.navbar-nav .active a
+			color white
+		header.transparency .navbar-default .navbar-nav li a
+			color white
+		.navbar-nav li a
+			color black
 	body
 		font-size 2em
 		line-height 1.6em
@@ -737,6 +784,11 @@ body
 @media screen and (min-width:1000px)
 	h2
 		font-size 2.8em
+		&.franquicia
+			margin-left 0
+			display block
+			width 100%
+			text-align center
 	h3
 		display block
 	.desc-top
@@ -985,6 +1037,15 @@ body
 			p.text
 				text-align center
 				padding-top 30px
+		p.text
+			height auto
+			margin 0 auto
+			padding 0
+			width 460px
+		p.text.aviso
+			width 800px
+			padding-top 30px
+		
 @media screen and (min-width:1200px)
 	body
 		.navbar-nav
