@@ -86,7 +86,8 @@ $( document ).ready(function() {
         };
         var $validate = $('#contactForm').validate(formSettings).data('validate');
     });
-        /**/
+
+    
     $(function(){
         var formSettingsFranquicia = {
             singleError : function($field, rules){ $field.closest('.line').removeClass('valid').addClass('error'); },
