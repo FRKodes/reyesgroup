@@ -27,6 +27,7 @@ Route::post('franquiciaSendMail', function()
 	});
 });
 
+
 Route::get('aviso-de-privacidad', function (){
 	return View::make('aviso');
 });
