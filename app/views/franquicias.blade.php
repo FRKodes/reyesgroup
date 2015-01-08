@@ -10,7 +10,7 @@
 	</section>
 	
 	<section class="contacto">
-		{{ Form::open(['url'=>'franquiciaSendMail', 'id'=>'franquicias'])}}
+		{{ Form::open(['url'=>'franquicias', 'id'=>'franquicias'])}}
 			<h2 class="franquicia">información personal</h2>
 			<div class="line">
 				{{ Form::input('text', 'nombre', null, ['placeholder'=>'Nombre(s)', 'data-validate'=>'required']) }}
