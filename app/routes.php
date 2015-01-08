@@ -37,8 +37,3 @@ Route::post('/sendmail', function()
 		$message->to('frkalderon@gmail.com')->subject('Reyes Group, mail de contacto.');
 	});
 });
-
-#delete please!!!
-Route::get('franquicia_email_test', function (){
-	return View::make('emails.franquicia_email_test');
-});
