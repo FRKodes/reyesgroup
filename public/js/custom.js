@@ -85,25 +85,24 @@ $( document ).ready(function() {
             autoDetect : true, debug : true
         };
         var $validate = $('#contactForm').validate(formSettings).data('validate');
-
+    });
         /**/
+    $(function(){
         var formSettingsFranquicia = {
             singleError : function($field, rules){ $field.closest('.line').removeClass('valid').addClass('error'); },
             singleSuccess : function($field, rules){ $field.closest('.line').removeClass('error').addClass('valid'); },
             overallSuccess : function(){
                 var form    = $('#franquicias'),
                     name    = form.find( "input[name='nombre']" ).val(),
-                    apellidos    = form.find( "input[name='apellidos']" ).val(),
+                    apellidos = form.find( "input[name='apellidos']" ).val(),
                     email   = form.find( "input[name='email']" ).val(),
                     action  = form.attr( "action"),
                     url     = action;
-                var posting = $.post( 
-                    url, { n: name, e: email, m: message }
-                    );
+                var posting = $.post( url );
                 posting.done(function( data ) {
                     console.log(data);
                     $('#franquicias')[0].reset();
-                    $('.sent_mail_alert').fadeIn().delay(2000).fadeOut();
+                    $('.sent_mail_alert').fadeIn().delay(4000).fadeOut();
                 });
             },
             overallError : function($form, fields){ /*Do nothing, just show the error fields*/ },
@@ -132,7 +131,6 @@ $( document ).ready(function() {
             $('input[name="porque_compromiso"]').css('display','block');
         };
     });
-    
     
     if ($( window ).width() >= 1280) {
         // Init Skrollr

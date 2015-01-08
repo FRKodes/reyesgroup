@@ -5,12 +5,12 @@
 		<span class="item-deco left-deco"></span><h2>Franquicias</h2><span class="item-deco right-deco"></span>
 		<span class="bottom-deco"></span>
 		<p class="text">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique voluptas qui, alias fuga? Distinctio porro incidunt aperiam laudantium consequatur deserunt quae maiores necessitatibus explicabo. In ipsa fugiat sit molestias!
+			Le agradeceremos responder el siguiente cuestionario, el cual es de gran importancia para nosotros, ya que nos permitirá dar el primer paso hacia una excelente relación de trabajo.
 		</p>
 	</section>
 	
 	<section class="contacto">
-		{{ Form::open(['url'=>'franquicias', 'id'=>'franquicias'])}}
+		{{ Form::open(['url'=>'franquiciaSendMail', 'id'=>'franquicias'])}}
 			<h2 class="franquicia">información personal</h2>
 			<div class="line">
 				{{ Form::input('text', 'nombre', null, ['placeholder'=>'Nombre(s)', 'data-validate'=>'required']) }}

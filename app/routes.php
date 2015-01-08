@@ -20,7 +20,7 @@ Route::get('franquicias', function (){
 	return View::make('franquicias');
 });
 
-Route::post('franquicias', function()
+Route::post('franquiciaSendMail', function()
 {
 	Mail::send('emails.franquicia', [], function($message){
 		$message->to('frkalderon@gmail.com')->subject('Reyes Group, interesado en franquicia.');
@@ -36,4 +36,9 @@ Route::post('/sendmail', function()
 	Mail::send('emails.contacto', [], function($message){
 		$message->to('frkalderon@gmail.com')->subject('Reyes Group, mail de contacto.');
 	});
+});
+
+#delete please!!!
+Route::get('franquicia_email_test', function (){
+	return View::make('emails.franquicia_email_test');
 });
