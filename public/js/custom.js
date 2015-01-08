@@ -99,10 +99,7 @@ $( document ).ready(function() {
                     email   = form.find( "input[name='email']" ).val(),
                     action  = form.attr( "action"),
                     url     = action;
-                var posting = $.post( 
-                    url, 
-                    { nombre: nombre }
-                    );
+                var posting = $.post( url );
                 posting.done(function( data ) {
                     console.log(data);
                     $('#franquicias')[0].reset();
