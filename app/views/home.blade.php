@@ -52,6 +52,7 @@
 				</a>
 			</div>
 		</section>
+		
 		<section class="filosofia" id="filosofia">
 			<div class="container">
 				<fugure class="corona">
@@ -61,7 +62,7 @@
 					<span class="item-deco left-deco"></span><h2>FILOSOFÍA REYES</h2><span class="item-deco right-deco"></span>
 					<span class="bottom-deco"></span>
 				</div>
-				<p class="text">Reyes Salón Cantina fusiona la escencia del México tradicional con el contemporaneo, logrando una mezcla única en la que el folklore de lo nuestro se respira y se siente a flor de piel, a través de sus sabores, su música y su gente, siempre en un ambiente festivo como son nuestras verdaderas celebraciones. <br><br>El mezcal y el tequila dando calor a las gargantas de los más valientes, el guacamole, arroz con leche deleitando paladares y el baile es algo que podrás encontrar cada noche en la primer cantina contemporanea de México.</p>
+				<p class="text">Reyes Salón Cantina fusiona la escencia del México tradicional con el contemporáneo, logrando una mezcla única en la que el folklore de lo nuestro se respira y se siente a flor de piel, a través de sus sabores, su música y su gente, siempre en un ambiente festivo como son nuestras verdaderas celebraciones. <br><br>El mezcal y el tequila dando calor a las gargantas de los más valientes, el guacamole, arroz con leche deleitando paladares y el baile es algo que podrás encontrar cada noche en la primer cantina contemporánea de México.</p>
 			</div>
 		</section>
 		
@@ -90,6 +91,7 @@
 						<div class="carousel-inner" role="listbox">
 							<div class="item active"><img src="../images/comida-platillo-el-mil-amores-reyes-cantina.png" width="687" height="570" alt="Platillo 'El mil amores' en Reyes Salón Cantina"></div>
 							<div class="item"><img src="../images/comida-platillo-tongolele-reyes-cantina.png" width="687" height="570" alt="Quesadilla 'tongolele' en Reyes Salón Cantina"></div>
+							<div class="item"><img src="../images/la-tuzita-reyes-salon-cantina.png" width="687" height="570" alt="La tuzita, churros cubiertos en azucar, canela, cajeta y leche condensada."></div>
 						</div>
 					</div>
 					<h3>Nuestros platillos</h3>
@@ -103,6 +105,7 @@
 						<div class="carousel-inner" role="listbox">
 							<div class="item active"><img src="../images/bebida-shot-de-mexcal-con-alacran.png" width="687" height="570" alt="El famoso shot de mezcal con alacrán"></div>
 							<div class="item"><img src="../images/bebida-michelada-mar-y-tierra-reyes-cantina.png" width="687" height="570" alt="La michelada mar y tierra o con tejuino."></div>
+							<div class="item"><img src="../images/bebida-martini-de-pepino-reyes-cantina.png" width="687" height="570" alt="Martini de pepino."></div>
 						</div>
 					</div>
 					<h3>Nuestras bebidas</h3>
@@ -116,6 +119,7 @@
 						<div class="carousel-inner" role="listbox">
 							<div class="item active"><img src="../images/concepto-musica-reyes-cantina.png" width="687" height="570" alt="Música tradicional mexicana en fusión con diferentes géneros como salsa, merengue, bachata y el top chart de pop del momento."></div>
 							<div class="item"><img src="../images/concepto-musica-trioker-reyes-cantina.png" width="687" height="570" alt="Los trioker en Reyes Salón Canitna"></div>
+							<div class="item"><img src="../images/concepto-musica-DJ-funky-kong-reyes-cantina.png" width="687" height="570" alt="DJ Funky Kong en Reyes Salón Canitna"></div>
 						</div>
 					</div>
 					<h3>Nuestra música</h3>
@@ -142,22 +146,26 @@
 				<li class="clientes"><a class="clientes" href="#clientes" title="Nuestros Clientes"></a></li>
 			</ul>
 		</section>
+		
 		<section class="nuestros-clientes">
-			<span class="item-deco left-deco"></span><h2 class="nuestros-platillos">NUESTROS CLIENTES</h2><span class="item-deco right-deco"></span>
-			<span class="bottom-deco"></span>
-			<figure><img src="images/reyes-clientes-01.jpg" width="186" height="186" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-02.jpg" width="186" height="186" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-03.jpg" width="186" height="186" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-04.jpg" width="186" height="186" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-05.jpg" width="186" height="186" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-06.jpg" width="186" height="186" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-07.jpg" width="186" height="186" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-08.jpg" width="186" height="186" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-09.jpg" width="186" height="186" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-10.jpg" width="186" height="186" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-11.jpg" width="186" height="186" alt="Reyes img"></figure>
-			<figure><img src="images/reyes-clientes-12.jpg" width="186" height="186" alt="Reyes img"></figure>
+			<div class="photos-container">
+				<span class="item-deco left-deco-white"></span><h2 class="nuestros-platillos white">NUESTROS CLIENTES</h2><span class="item-deco right-deco-white"></span>
+				<span class="bottom-deco-white"></span>
+				<figure><img src="images/reyes-clientes-01.jpg" width="186" height="186" alt="Reyes img"></figure>
+				<figure><img src="images/reyes-clientes-02.jpg" width="186" height="186" alt="Reyes img"></figure>
+				<figure><img src="images/reyes-clientes-03.jpg" width="186" height="186" alt="Reyes img"></figure>
+				<figure><img src="images/reyes-clientes-04.jpg" width="186" height="186" alt="Reyes img"></figure>
+				<figure><img src="images/reyes-clientes-05.jpg" width="186" height="186" alt="Reyes img"></figure>
+				<figure><img src="images/reyes-clientes-06.jpg" width="186" height="186" alt="Reyes img"></figure>
+				<figure><img src="images/reyes-clientes-07.jpg" width="186" height="186" alt="Reyes img"></figure>
+				<figure><img src="images/reyes-clientes-08.jpg" width="186" height="186" alt="Reyes img"></figure>
+				<figure><img src="images/reyes-clientes-09.jpg" width="186" height="186" alt="Reyes img"></figure>
+				<figure><img src="images/reyes-clientes-10.jpg" width="186" height="186" alt="Reyes img"></figure>
+				<figure><img src="images/reyes-clientes-11.jpg" width="186" height="186" alt="Reyes img"></figure>
+				<figure><img src="images/reyes-clientes-12.jpg" width="186" height="186" alt="Reyes img"></figure>
+			</div>
 		</section>
+		
 		<section class="unidades" id="unidades">
 			<span class="item-deco left-deco"></span><h2>UNIDADES</h2><span class="item-deco right-deco"></span>
 			<span class="bottom-deco"></span>
@@ -233,9 +241,10 @@
 
 			</div>
 		</section>
+		
 		<section class="contacto" id="contacto">
-			<span class="item-deco left-deco"></span><h2>CONTACTO</h2><span class="item-deco right-deco"></span>
-			<span class="bottom-deco"></span>
+			<span class="item-deco left-deco-white"></span><h2>CONTACTO</h2><span class="item-deco right-deco-white"></span>
+			<span class="bottom-deco-white"></span>
 			{{ Form::open(['url'=>'sendmail', 'id'=>'contactForm'])}}
 				<div class="line">{{ Form::input('text', 'nombre', null, ['placeholder'=>'Nombre', 'maxlength'=>'50', 'data-validate'=>'required']) }}</div>
 				<div class="line">{{ Form::input('text', 'email', null, ['placeholder'=>'Correo electrónico', 'maxlength'=>'70', 'data-validate'=>'required|email']) }}</div>

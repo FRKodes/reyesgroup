@@ -93,10 +93,7 @@ $( document ).ready(function() {
             singleError : function($field, rules){ $field.closest('.line').removeClass('valid').addClass('error'); },
             singleSuccess : function($field, rules){ $field.closest('.line').removeClass('error').addClass('valid'); },
             overallSuccess : function(){
-                var form    = $('#franquicias'),
-                    name    = form.find( "input[name='nombre']" ).val(),
-                    apellidos = form.find( "input[name='apellidos']" ).val(),
-                    email   = form.find( "input[name='email']" ).val(),
+                var form    = $("#franquicias"),
                     action  = form.attr( "action"),
                     url     = action;
                 var posting = $.post( url );

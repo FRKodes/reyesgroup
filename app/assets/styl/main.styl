@@ -204,16 +204,27 @@ p.alert
 	margin 0
 	padding 0
 .item-deco
+	background transparent url(../images/sprite-reyes-cantina.png) no-repeat
 	display inline-block
 	width 44px
 	height 16px
 	overflow hidden
 .left-deco
-	background transparent url(../images/sprite-reyes-cantina.png) no-repeat left -125px
+	background-position left -125px
+.left-deco-white
+	background-position -1072px -204px
 .right-deco
-	background transparent url(../images/sprite-reyes-cantina.png) no-repeat left -144px
+	background-position left -144px
+.right-deco-white
+	background-position -1072px -223px
 .bottom-deco
 	background transparent url(../images/sprite-reyes-cantina.png) no-repeat 0 -110px
+	display block
+	height 14px
+	margin -10px auto 16px auto
+	width 150px
+.bottom-deco-white
+	background transparent url(../images/sprite-reyes-cantina.png) no-repeat -1072px -190px
 	display block
 	height 14px
 	margin -10px auto 16px auto
@@ -246,23 +257,32 @@ section
 .show
 	display block
 .nuestros-clientes
+	background-color black
 	display none
 	height auto
-	margin 0 auto
+	overflow hidden
 	padding-bottom 50px
-	width 960px
-	figure
-		display block
-		float left
-		height 150px
-		margin 0 10px 10px 0
+	.photos-container
+		background-color black
+		display none
+		height auto
+		margin 0 auto
 		padding 0
-		width 150px
-		img
+		width 960px
+		h2
+			color white
+		figure
 			display block
 			float left
 			height 150px
+			margin 0 10px 10px 0
+			padding 0
 			width 150px
+			img
+				display block
+				float left
+				height 150px
+				width 150px
 .hsContainer 
 	display none
 
@@ -284,7 +304,7 @@ section
 				margin 0 auto
 body
 	font-family 'Lato', sans-serif
-	background transparent url(../images/patron-fondo-oscuro_.png) repeat center top
+	background transparent
 	overflow auto
 	width 100%
 	font-size 1.6em
@@ -537,13 +557,16 @@ body
 						height auto
 						width 100%
 	.contacto
-		width 100%
-		height auto
+		background black
 		display block
+		height auto
+		margin 0
 		overflow hidden
 		padding 0
 		position relative
-		margin 0
+		width 100%
+		h2
+			color white
 		.line
 			width 90%
 			height auto
@@ -571,8 +594,8 @@ body
 			.submitBtn
 				width 70%
 				margin 0 auto
-				background black
-				color white
+				background white
+				color black
 		.line_check
 			text-align left
 			display block
@@ -605,12 +628,14 @@ body
 			position relative
 			width 90%
 	footer
-		padding 20px 0
-		position relative
-		height auto
+		background black
 		display block
+		height auto
+		padding 20px 0 40px 0
+		position relative
+		color white
 		a
-			color black
+			color white
 			text-decoration none
 			&:hover
 				text-decoration underline
@@ -624,18 +649,31 @@ body
 		&.franquicia
 			margin-left 10%
 	.item-deco
+		background transparent url(../images/sprite-reyes-cantina.png) no-repeat
 		display inline-block
-		width 81px
 		height 39px
 		overflow hidden
+		width 81px
 	.left-deco
-		background transparent url(../images/sprite-reyes-cantina.png) no-repeat -498px -29px
+		background-position -498px -29px
+		margin-right 20px
+	.left-deco-white
+		background-position -1072px -29px
 		margin-right 20px
 	.right-deco
-		background transparent url(../images/sprite-reyes-cantina.png) no-repeat -498px -67px
+		background-position -498px -67px
+		margin-left 20px
+	.right-deco-white
+		background-position -1072px -66px
 		margin-left 20px
 	.bottom-deco
 		background transparent url(../images/sprite-reyes-cantina.png) no-repeat -498px 0px
+		display block
+		height 28px
+		margin -10px auto 16px auto
+		width 301px
+	.bottom-deco-white
+		background transparent url(../images/sprite-reyes-cantina.png) no-repeat -1072px 0px
 		display block
 		height 28px
 		margin -10px auto 16px auto
@@ -779,7 +817,6 @@ body
 			padding 20px 0
 			position relative
 			height auto
-			margin-bottom 140px
 			display block
 @media screen and (min-width:1000px)
 	h2
@@ -901,6 +938,9 @@ body
 					margin 0
 					padding 50px 0 0 0
 					width 568px
+				p.text
+					float left
+					width 568px
 		.hsContainer 
 		    display table
 		    table-layout fixed
@@ -978,15 +1018,18 @@ body
 				display none
 		.nuestros-clientes
 			display block
-			figure
-				overflow hidden
-				img:hover
-					width 140%
-					height auto
-					cursor pointer
-					margin-left -20%
-					margin-top -20%
-					transition all 0.2s ease
+			.photos-container
+				display block
+				figure
+					overflow hidden
+					img:hover
+						width 140%
+						height 140%
+						display block
+						cursor pointer
+						margin-left -20%
+						margin-top -20%
+						transition all 0.1s ease-in
 		.unidades
 			.unidades-list
 				display none
@@ -1033,7 +1076,6 @@ body
 				margin -340px auto 180px auto
 				position relative
 		footer
-			margin-bottom 40px
 			p.text
 				text-align center
 				padding-top 30px
@@ -1111,18 +1153,19 @@ body
 					h3
 						text-align center
 		.nuestros-clientes
-			width 1150px
-			figure
-				display block
-				float left
-				height 181px
-				padding 0
-				width 181px
-				img
+			.photos-container
+				width 1150px
+				figure
 					display block
 					float left
-					height 180px
-					width 180px
+					height 181px
+					padding 0
+					width 181px
+					img
+						display block
+						float left
+						height 180px
+						width 180px
 		.unidades
 			.container-info
 				width 1150px
