@@ -9,7 +9,7 @@
 		</p>
 	</section>
 	
-	<section class="contacto">
+	<section class="contacto" id="contacto-franquicias">
 		{{ Form::open(['url'=>'franquicias', 'id'=>'franquicias'])}}
 			<h2 class="franquicia">información personal</h2>
 			<div class="line">
