@@ -151,18 +151,24 @@
 			<div class="photos-container">
 				<span class="item-deco left-deco-white"></span><h2 class="nuestros-platillos white">NUESTROS CLIENTES</h2><span class="item-deco right-deco-white"></span>
 				<span class="bottom-deco-white"></span>
-				<figure><img src="images/reyes-clientes-01.jpg" width="186" height="186" alt="Reyes img"></figure>
-				<figure><img src="images/reyes-clientes-02.jpg" width="186" height="186" alt="Reyes img"></figure>
-				<figure><img src="images/reyes-clientes-03.jpg" width="186" height="186" alt="Reyes img"></figure>
-				<figure><img src="images/reyes-clientes-04.jpg" width="186" height="186" alt="Reyes img"></figure>
-				<figure><img src="images/reyes-clientes-05.jpg" width="186" height="186" alt="Reyes img"></figure>
-				<figure><img src="images/reyes-clientes-06.jpg" width="186" height="186" alt="Reyes img"></figure>
-				<figure><img src="images/reyes-clientes-07.jpg" width="186" height="186" alt="Reyes img"></figure>
-				<figure><img src="images/reyes-clientes-08.jpg" width="186" height="186" alt="Reyes img"></figure>
-				<figure><img src="images/reyes-clientes-09.jpg" width="186" height="186" alt="Reyes img"></figure>
-				<figure><img src="images/reyes-clientes-10.jpg" width="186" height="186" alt="Reyes img"></figure>
-				<figure><img src="images/reyes-clientes-11.jpg" width="186" height="186" alt="Reyes img"></figure>
-				<figure><img src="images/reyes-clientes-12.jpg" width="186" height="186" alt="Reyes img"></figure>
+				<figure><img src="images/reyes-clientes-01.jpg" width="186" height="186" alt="Diego Luna en Reyes Salón Cantina Guadalajara"></figure>
+				<figure><img src="images/reyes-clientes-02.jpg" width="186" height="186" alt="El lugar perfecto para tomarse unos shots es Reyes Salón Cantina"></figure>
+				<figure><img src="images/reyes-clientes-03.jpg" width="186" height="186" alt="Para pasarla bien con los amigos está el Reyes Salón Cantina"></figure>
+				<figure><img src="images/reyes-clientes-04.jpg" width="186" height="186" alt="Noche de amigos en Reyes"></figure>
+				<figure><img src="images/reyes-clientes-05.jpg" width="186" height="186" alt="Sebu Simonian de Capital Cities tomando un shot de alacrán en Reyes Salón Cantina"></figure>
+				<figure><img src="images/reyes-clientes-06.jpg" width="186" height="186" alt="Martha Higareda tomando unos shots en Reyes Salón Cantina"></figure>
+				<figure><img src="images/reyes-clientes-07.jpg" width="186" height="186" alt="Noche de amigas en Reyes Salón Cantina"></figure>
+				<figure><img src="images/reyes-clientes-08.jpg" width="186" height="186" alt="Amigos de copas en Reyes"></figure>
+				<figure><img src="images/reyes-clientes-09.jpg" width="186" height="186" alt="Pasándola de lujo en Reyes"></figure>
+				<figure><img src="images/reyes-clientes-10.jpg" width="186" height="186" alt="Facundo Reyes img"></figure>
+				<figure><img src="images/reyes-clientes-11.jpg" width="186" height="186" alt="Los amigos en Reyes la pasan mejor"></figure>
+				<figure><img src="images/reyes-clientes-12.jpg" width="186" height="186" alt="Despedida de soltera en Reyes Salón Cantina"></figure>
+				<figure><img src="images/reyes-clientes-13.jpg" width="186" height="186" alt="Viva México! en Reyes Salón Cantina"></figure>
+				<figure><img src="images/reyes-clientes-14.jpg" width="186" height="186" alt="Pasándola bien en Reyes con Diego Luna"></figure>
+				<figure><img src="images/reyes-clientes-15.jpg" width="186" height="186" alt="Lupita D'Alessio en Reyes"></figure>
+				<figure><img src="images/reyes-clientes-16.jpg" width="186" height="186" alt="La foto obligada en la barra del Reyes Salón Cantina"></figure>
+				<figure><img src="images/reyes-clientes-17.jpg" width="186" height="186" alt="El Canelo en Reyes Salón Cantina"></figure>
+				<figure><img src="images/reyes-clientes-18.jpg" width="186" height="186" alt="Faisy de visita en Reyes Salón Cantina"></figure>
 			</div>
 		</section>
 		
