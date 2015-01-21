@@ -11,7 +11,7 @@
                         <table width='700' height='300' bgcolor='#000' cellpadding='0' cellspacing='0'>
                             <tbody>
                                 <tr height='100'> 
-                                    <td bgcolor='#000' color='#fff' colspan='3'><img src="" alt=""></td> 
+                                    <td bgcolor='#f2f2f2' color='#000' colspan='3'>Contacto REYES Group</td> 
                                 </tr>
                                 <tr height='400'>
                                     <td bgcolor='#fff' style='border-left:1px solid #f2f2f2;border-right:1px solid #f2f2f2;'>
@@ -32,9 +32,9 @@
                                         </table>
                                     </td>
                                 </tr>
-                                <tr bgcolor='#000'>
+                                <tr bgcolor='#f2f2f2'>
                                     <td colspan='3'>
-                                        <p style='font-family:Arial, Helvetica, sans-serif, Trebuchet MS;font-size:x-small;color:#fff;'>
+                                        <p style='font-family:Arial, Helvetica, sans-serif, Trebuchet MS;font-size:x-small;color:#000;'>
                                             AVISO DE CONFIDENCIALIDAD: Este mensaje es confidencial y/o puede contener informaci&oacute;n privilegiada.
                                             Si usted no es el destinatario o no es alguna persona autorizada por &eacute;ste para recibir el mensaje,
                                             usted no deber&aacute; utilizar, copiar, revelar o tomar ninguna acci&oacute;n basada en este mensaje o
