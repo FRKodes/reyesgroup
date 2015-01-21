@@ -12,11 +12,12 @@
 				</ol>
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="../images/local-reyes-aguascalientes.png" width="690" height="749" alt="Bienvenida Sucursal Aguascalientes">
+						<img src="../images/bienvenidas-sucursales-tijuana-y-aguascalientes.png" width="690" height="749" alt="Bienvenidas Sucursales Tijuana y Aguascalientes">
 						<div class="container">
 							<div class="carousel-caption alegre">
 								<span>Bienvenida</span><br>
-								<span>sucursal</span><br>
+								<span>sucursales</span><br>
+								Tijuana y<br>
 								Aguascalientes
 							</div>
 						</div>
