@@ -11,7 +11,7 @@
                         <table width='700' height='300' bgcolor='#000' cellpadding='0' cellspacing='0'>
                             <tbody>
                                 <tr height='100'> 
-                                    <td bgcolor='#f2f2f2' color='#000' colspan='3' style='font-size:x-large'>Contacto REYES Group</td> 
+                                    <td bgcolor='#f2f2f2' color='#000' colspan='3' style='font-size:x-large'>Contacto REYES Group</td>
                                 </tr>
                                 <tr height='400'>
                                     <td bgcolor='#fff' style='border-left:1px solid #f2f2f2;border-right:1px solid #f2f2f2;'>
