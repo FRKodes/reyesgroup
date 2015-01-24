@@ -20,7 +20,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- <div class="item">
+					<div class="item">
 						<img src="../images/la-vitola-tuetano-reyes-salon-cantina-mas-tejuino-con-cerveza.png" width="690" height="749" alt="la vitola, tuétano en Reyes Salón Cantina más tejuino con cerveza">
 						<div class="container">
 							<div class="carousel-caption alegre">
@@ -39,7 +39,7 @@
 								y contemporáneo
 							</div>
 						</div>
-					</div> -->
+					</div>
 				</div>
 				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
