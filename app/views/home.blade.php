@@ -11,18 +11,16 @@
 					<li data-target="#myCarousel" data-slide-to="2"></li>
 				</ol>
 				<div class="carousel-inner" role="listbox">
-					<div class="item active">
+					<div class="item active" id="sucursales">
 						<img src="../images/bienvenidas-sucursales-tijuana-y-aguascalientes.png" width="690" height="749" alt="Bienvenidas Sucursales Tijuana y Aguascalientes">
 						<div class="container">
 							<div class="carousel-caption alegre">
-								<span>Bienvenida</span><br>
-								<span>sucursales</span><br>
-								Tijuana y<br>
-								Aguascalientes
+								<span>Bienvenidas sucursales</span><br>
+								<span class="tj">Tijuana</span><span class="ags">Aguascalientes</span>
 							</div>
 						</div>
 					</div>
-					<div class="item">
+					<!-- <div class="item">
 						<img src="../images/la-vitola-tuetano-reyes-salon-cantina-mas-tejuino-con-cerveza.png" width="690" height="749" alt="la vitola, tuétano en Reyes Salón Cantina más tejuino con cerveza">
 						<div class="container">
 							<div class="carousel-caption alegre">
@@ -41,7 +39,7 @@
 								y contemporáneo
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
