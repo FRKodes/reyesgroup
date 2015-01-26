@@ -34,6 +34,6 @@ Route::get('aviso-de-privacidad', function (){
 Route::post('/sendmail', function()
 {
 	Mail::send('emails.contacto', [], function($message){
-		$message->to('frkalderon@gmail.com')->subject('Reyes Group, mail de contacto.');
+		$message->to('maria@reyesgroup.com.mx')->subject('Reyes Group, mail de contacto.');
 	});
 });
