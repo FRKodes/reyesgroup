@@ -23,7 +23,7 @@ Route::get('franquicias', function (){
 Route::post('franquicias', function()
 {
 	Mail::send('emails.franquicia', [], function($message){
-		$message->to('frkalderon@gmail.com')->subject('Reyes Group, interesado en franquicia.');
+		$message->to('maria@reyesgroup.com.mx')->subject('Reyes Group, interesado en franquicia.');
 	});
 });
 
