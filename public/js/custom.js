@@ -95,12 +95,15 @@ $( document ).ready(function() {
             overallSuccess : function(){
                 var form    = $("#franquicias"),
                     action  = form.attr( "action"),
+                    name    = form.find( "input[name='nombre']" ).val(),
+                    email   = form.find( "input[name='email']" ).val(),
                     url     = action;
-                var posting = $.post( url );
+                var posting = $.post( 
+                    url, { nombre: name, email: email } );
                 posting.done(function( data ) {
                     console.log(data);
                     $('#franquicias')[0].reset();
-                    $('.sent_mail_alert').fadeIn().delay(4000).fadeOut();
+                    $('.sent_mail_alert').fadeIn().delay(2000).fadeOut();
                 });
             },
             overallError : function($form, fields){ /*Do nothing, just show the error fields*/ },

@@ -46,7 +46,7 @@
                                                         <p><b>¿Esta convencido del compromiso que representa abrir una franquicia?</b>  {{ (Input::get('compromiso_franquicia'))?:'N/A' }} </p>
                                                         <p><b>¿Por qué?</b>  {{ (Input::get('porque_compromiso'))?:'N/A' }} </p>
                                                         <p>&nbsp;</p>
-                                                        <p><a style='color:#3a6f8f;text-decoration:none;' href='http://www.reyesgroup.com.mx' target='_blank'><span style='text-transform:uppercase;'></span><br>Reyes Group</a></p>
+                                                        <p><a style='color:#3a6f8f;text-decoration:none;' href='http://www.reyescantina.com' target='_blank'><span style='text-transform:uppercase;'></span><br>Reyes Cantina</a></p>
                                                         <p>&nbsp;</p>
                                                     </td>
                                                     <td width='10'></td>
