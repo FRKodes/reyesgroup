@@ -95,11 +95,47 @@ $( document ).ready(function() {
             overallSuccess : function(){
                 var form    = $("#franquicias"),
                     action  = form.attr( "action"),
-                    name    = form.find( "input[name='nombre']" ).val(),
-                    email   = form.find( "input[name='email']" ).val(),
+                    nombre = form.find( "input[name='nombre']" ).val(),
+                    apellidos = form.find( "input[name='apellidos']" ).val(),
+                    email = form.find( "input[name='email']" ).val(),
+                    tel = form.find( "input[name='tel']" ).val(),
+                    cel = form.find( "input[name='cel']" ).val(),
+                    ciudad = form.find( "input[name='ciudad']" ).val(),
+                    local = form.find( "select[name='local']" ).val(),
+                    ubicacion_local = form.find( "input[name='ubicacion_local']" ).val(),
+                    porque_interes = form.find( "input[name='porque_interes']" ).val(),
+                    pertenece_franquicia = form.find( "input[name='pertenece_franquicia']" ).val(),
+                    actividad_economica = form.find( "input[name='actividad_economica']" ).val(),
+                    negocio_propio = form.find( "select[name='negocio_propio']" ).val(),
+                    cual_negocio = form.find( "input[name='cual_negocio']" ).val(),
+                    quien_opera = form.find( "input[name='quien_opera']" ).val(),
+                    origen_inversion = form.find( "select[name='origen_inversion']" ).val(),
+                    cantidad_inversion = form.find( "input[name='cantidad_inversion']" ).val(),
+                    compromiso_franquicia = form.find( "select[name='compromiso_franquicia']" ).val(),
+                    porque_compromiso = form.find( "input[name='porque_compromiso']" ).val(),
                     url     = action;
                 var posting = $.post( 
-                    url, { nombre: name, email: email } );
+                    url, { 
+                        nombre : nombre,
+                        apellidos : apellidos,
+                        email : email,
+                        tel : tel,
+                        cel : cel,
+                        ciudad : ciudad,
+                        local : local,
+                        ubicacion_local : ubicacion_local,
+                        porque_interes : porque_interes,
+                        pertenece_franquicia : pertenece_franquicia,
+                        actividad_economica : actividad_economica,
+                        negocio_propio : negocio_propio,
+                        cual_negocio : cual_negocio,
+                        quien_opera : quien_opera,
+                        origen_inversion : origen_inversion,
+                        cantidad_inversion : cantidad_inversion,
+                        compromiso_franquicia : compromiso_franquicia,
+                        porque_compromiso : porque_compromiso
+                    } 
+                    );
                 posting.done(function( data ) {
                     console.log(data);
                     $('#franquicias')[0].reset();

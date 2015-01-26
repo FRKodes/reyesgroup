@@ -34,7 +34,7 @@
 				{{ Form::input('text', 'ciudad', null, ['placeholder'=>'En que ciudad desea tener la franquicia?', 'data-validate'=>'required']) }}
 			</div>
 			<div class="line">
-				{{ Form::select('local', [''=>'Cuenta con local o terreno propio?','local'=>'Local', 'terreno'=>'Terreno', 'ninguno'=>'Ninguno de los anteriores', ], null, []) }}
+				{{ Form::select('local', [''=>'Cuenta con local o terreno propio?','local'=>'Local', 'terreno'=>'Terreno', 'ninguno'=>'Ninguno de los anteriores'], null, []) }}
 			</div>
 			<div class="line">
 				{{ Form::input('text', 'ubicacion_local', null, ['placeholder'=>'¿Dónde esta ubicado el local/terreno?', 'style'=>'display:none']) }}
