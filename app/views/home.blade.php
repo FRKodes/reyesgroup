@@ -129,10 +129,10 @@
 					<span class="bottom-deco"></span>
 					<p class="desc-top"></p>
 					<div class="block-clientes">
-						<figure><img src="images/reyes-clientes-01.jpg" width="186" height="186" alt="Reyes img"></figure>
-						<figure><img src="images/reyes-clientes-02.jpg" width="186" height="186" alt="Reyes img"></figure>
-						<figure><img src="images/reyes-clientes-03.jpg" width="186" height="186" alt="Reyes img"></figure>
-						<figure><img src="images/reyes-clientes-04.jpg" width="186" height="186" alt="Reyes img"></figure>
+						<figure><img src="images/reyes-clientes-01.jpg" width="186" height="186" alt="Diego Luna en Reyes Salón Cantina Guadalajara"></figure>
+						<figure><img src="images/reyes-clientes-06.jpg" width="186" height="186" alt="Martha Higareda tomando unos shots en Reyes Salón Cantina"></figure>
+						<figure><img src="images/reyes-clientes-09.jpg" width="186" height="186" alt="Pasándola de lujo en Reyes"></figure>
+						<figure><img src="images/reyes-clientes-17.jpg" width="186" height="186" alt="El Canelo en Reyes Salón Cantina"></figure>
 					</div>
 					<h3>Nuestros clientes</h3>
 					<p class="desc-bottom"></p>
