@@ -61,7 +61,7 @@
 					<span class="item-deco left-deco"></span><h2>FILOSOFÍA REYES</h2><span class="item-deco right-deco"></span>
 					<span class="bottom-deco"></span>
 				</div>
-				<p class="text">Reyes Salón Cantina fusiona la escencia del México tradicional con el contemporáneo, logrando una mezcla única en la que el folklore de lo nuestro se respira y se siente a flor de piel, a través de sus sabores, su música y su gente, siempre en un ambiente festivo como son nuestras verdaderas celebraciones. <br><br>El mezcal y el tequila dando calor a las gargantas de los más valientes, el guacamole, arroz con leche deleitando paladares y el baile es algo que podrás encontrar cada noche en la primer cantina contemporánea de México.</p>
+				<p class="text">Reyes Salón Cantina fusiona la esencia del México tradicional con el contemporáneo, logrando una mezcla única en la que el folklore de lo nuestro se respira y se siente a flor de piel, a través de sus sabores, su música y su gente, siempre en un ambiente festivo como son nuestras verdaderas celebraciones. <br><br>El mezcal y el tequila dando calor a las gargantas de los más valientes, el guacamole, arroz con leche deleitando paladares y el baile es algo que podrás encontrar cada noche en la primer cantina contemporánea de México.</p>
 			</div>
 		</section>
 		
