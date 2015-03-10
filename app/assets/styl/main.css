@@ -1,3 +1,4 @@
+@charset "utf-8";
 @font-face {
   font-family: 'alegre';
   src: url("./fonts/alegre_sans-webfont.eot");
@@ -198,20 +199,41 @@ p.text {
   text-align: left;
   padding: 0 20px;
 }
+p.alert {
+  color: #f00;
+  display: none;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+}
 .item-deco {
+  background: transparent url("../images/sprite-reyes-cantina.png") no-repeat;
   display: inline-block;
   width: 44px;
   height: 16px;
   overflow: hidden;
 }
 .left-deco {
-  background: transparent url("../images/sprite-reyes-cantina.png") no-repeat left -125px;
+  background-position: left -125px;
+}
+.left-deco-white {
+  background-position: -1072px -204px;
 }
 .right-deco {
-  background: transparent url("../images/sprite-reyes-cantina.png") no-repeat left -144px;
+  background-position: left -144px;
+}
+.right-deco-white {
+  background-position: -1072px -223px;
 }
 .bottom-deco {
   background: transparent url("../images/sprite-reyes-cantina.png") no-repeat 0 -110px;
+  display: block;
+  height: 14px;
+  margin: -10px auto 16px auto;
+  width: 150px;
+}
+.bottom-deco-white {
+  background: transparent url("../images/sprite-reyes-cantina.png") no-repeat -1072px -190px;
   display: block;
   height: 14px;
   margin: -10px auto 16px auto;
@@ -222,22 +244,97 @@ h2 {
   font-size: 2.6em;
   font-family: 'alegre';
 }
+h2.franquicia {
+  text-align: left;
+  float: left;
+  margin-left: 5%;
+  font-size: 1.8em;
+}
 h2.concepto {
   display: none;
 }
 h3 {
   font-family: 'alegre';
   font-size: 2em;
+  display: none;
+}
+.desc-top {
+  display: block;
+  padding-top: 30px;
+}
+.desc-bottom {
+  display: none;
 }
 section {
   text-align: center;
 }
+.franquicias,
+.aviso {
+  padding-top: 60px;
+}
 .show {
   display: block;
 }
+.nuestros-clientes {
+  background-color: #000;
+  display: none;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+.nuestros-clientes .photos-container {
+  background-color: #000;
+  display: none;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  width: 960px;
+}
+.nuestros-clientes .photos-container h2 {
+  color: #fff;
+}
+.nuestros-clientes .photos-container figure {
+  display: block;
+  float: left;
+  height: 150px;
+  margin: 0 10px 10px 0;
+  padding: 0;
+  width: 150px;
+}
+.nuestros-clientes .photos-container figure img {
+  display: block;
+  float: left;
+  height: 150px;
+  width: 150px;
+}
+.hsContainer {
+  display: none;
+}
+.carousel_food,
+.carousel_beberages,
+.carousel_musica {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.carousel_food .carousel-inner .item,
+.carousel_beberages .carousel-inner .item,
+.carousel_musica .carousel-inner .item {
+  height: auto;
+  padding-bottom: 0px;
+}
+.carousel_food .carousel-inner .item img,
+.carousel_beberages .carousel-inner .item img,
+.carousel_musica .carousel-inner .item img {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
 body {
   font-family: 'Lato', sans-serif;
-  background: transparent url("../images/patron-fondo-oscuro.png") repeat center top;
+  background: transparent;
   overflow: auto;
   width: 100%;
   font-size: 1.6em;
@@ -245,6 +342,7 @@ body {
 }
 body .navbar {
   border: none;
+  font-family: 'Lato';
 }
 body .navbar-default {
   background-color: transparent;
@@ -296,6 +394,7 @@ body .logo-slider-container .logo-reyes-top {
   margin: 0 auto 20px auto;
   width: 100px;
   text-align: center;
+  transition: opacity 1s ease;
 }
 body .logo-slider-container .carousel {
   height: auto;
@@ -352,6 +451,17 @@ body .filosofia .corona img {
 body .filosofia .title-container {
   margin-top: -40px;
 }
+body .platillos .concepto-title {
+  font-size: 1.8em;
+  line-height: 0.2em;
+  display: inline-block;
+  margin-top: 60px;
+  padding-bottom: 0;
+}
+body .platillos .item-deco.large,
+body .platillos .bottom-deco.large {
+  display: none;
+}
 body .platillos .photos {
   display: block;
   margin: -25px 0 40px 0;
@@ -368,6 +478,29 @@ body .platillos .photos li img {
   height: auto;
   width: 100%;
 }
+body .platillos .photos li p.desc-top {
+  padding: 0 40px;
+}
+body .platillos .photos li .block-clientes {
+  float: left;
+  height: auto;
+  margin: 0;
+  padding: 0 0 100px 0;
+  width: 100%;
+  text-align: center;
+}
+body .platillos .photos li .block-clientes figure {
+  display: inline-block;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: 45%;
+}
+body .platillos .photos li .block-clientes figure img {
+  display: block;
+  height: auto;
+  width: 98%;
+}
 body .platillos .steps {
   display: block;
   height: auto;
@@ -379,15 +512,35 @@ body .platillos .steps {
   overflow: hidden;
 }
 body .platillos .steps li {
-  background: #000;
+  background: #000 url("../images/sprite-reyes-cantina.png") no-repeat;
   border-radius: 50%;
   display: inline-block;
-  height: 40px;
+  height: 45px;
   margin: 0 15px;
-  width: 40px;
+  width: 45px;
 }
 body .platillos .steps li:first-of-type {
   margin-left: 0;
+}
+body .platillos .steps li.comida {
+  background-position: -53px -219px;
+}
+body .platillos .steps li.bebida {
+  background-position: -4px -219px;
+}
+body .platillos .steps li.musica {
+  background-position: -105px -219px;
+}
+body .platillos .steps li.clientes {
+  background-position: -155px -219px;
+}
+body .platillos .steps li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+body .platillos .steps li a:hover {
+  cursor: pointer;
 }
 body .unidades {
   display: block;
@@ -470,23 +623,39 @@ body .unidades .container-info .unidad .title {
   font-size: 2em;
   line-height: 1em;
 }
+body .unidades .container-info .unidad .title.prox {
+  font-family: 'Lato';
+  color: #808080;
+  font-size: 1em;
+  text-transform: capitalize;
+  line-height: 0.1em;
+}
 body .unidades .container-info .unidad .mapa {
-  background: #f00 url("../images/ubicaciones.jpg") no-repeat left top;
+  border: 1px solid #000;
   display: block;
-  height: 127px;
-  margin: 0 auto;
+  height: auto;
+  margin: 0 auto 10px auto;
   overflow: hidden;
   padding: 0;
-  width: 297px;
+  width: 90%;
+}
+body .unidades .container-info .unidad .mapa img {
+  display: block;
+  height: auto;
+  width: 100%;
 }
 body .contacto {
-  width: 100%;
-  height: auto;
+  background: #000;
   display: block;
+  height: auto;
+  margin: 0;
   overflow: hidden;
   padding: 0;
   position: relative;
-  margin: 0;
+  width: 100%;
+}
+body .contacto h2 {
+  color: #fff;
 }
 body .contacto .line {
   width: 90%;
@@ -494,7 +663,15 @@ body .contacto .line {
   padding-bottom: 20px;
   margin: 0 auto;
 }
+body .contacto .line.error input,
+body .contacto .line.error textarea {
+  border-color: #f00;
+}
+body .contacto .line.error p.alert {
+  display: block;
+}
 body .contacto .line input,
+body .contacto .line select,
 body .contacto .line textarea {
   width: 100%;
   background: #fff;
@@ -511,8 +688,31 @@ body .contacto .line textarea {
 body .contacto .line .submitBtn {
   width: 70%;
   margin: 0 auto;
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
+}
+body .contacto .line_check {
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+  font-size: 0.8em;
+  padding-bottom: 0;
+}
+body .contacto .line_check input[type="checkbox"] {
+  display: inline-block;
+  height: 30px;
+  width: 20px;
+  vertical-align: middle;
+}
+body .contacto .line_check label {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 0;
+  line-height: 30px;
+  vertical-align: middle;
+}
+body .contacto .line_check a {
+  display: inline-block;
 }
 body .contacto .sent_mail_alert {
   background: #000;
@@ -528,13 +728,15 @@ body .contacto .sent_mail_alert {
   width: 90%;
 }
 body footer {
-  padding: 20px 0;
-  position: relative;
-  height: auto;
+  background: #000;
   display: block;
+  height: auto;
+  padding: 20px 0 40px 0;
+  position: relative;
+  color: #fff;
 }
 body footer a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 body footer a:hover {
@@ -543,22 +745,37 @@ body footer a:hover {
 body footer a:visited {
   color: #000;
 }
+body #franquiciasBtn {
+  margin-top: 50px;
+}
 @media screen and (min-width:768px) {
   h2 {
     font-size: 3.4em;
   }
+  h2.franquicia {
+    margin-left: 10%;
+  }
   .item-deco {
+    background: transparent url("../images/sprite-reyes-cantina.png") no-repeat;
     display: inline-block;
-    width: 81px;
     height: 39px;
     overflow: hidden;
+    width: 81px;
   }
   .left-deco {
-    background: transparent url("../images/sprite-reyes-cantina.png") no-repeat -498px -29px;
+    background-position: -498px -29px;
+    margin-right: 20px;
+  }
+  .left-deco-white {
+    background-position: -1072px -29px;
     margin-right: 20px;
   }
   .right-deco {
-    background: transparent url("../images/sprite-reyes-cantina.png") no-repeat -498px -67px;
+    background-position: -498px -67px;
+    margin-left: 20px;
+  }
+  .right-deco-white {
+    background-position: -1072px -66px;
     margin-left: 20px;
   }
   .bottom-deco {
@@ -568,9 +785,78 @@ body footer a:visited {
     margin: -10px auto 16px auto;
     width: 301px;
   }
+  .bottom-deco-white {
+    background: transparent url("../images/sprite-reyes-cantina.png") no-repeat -1072px 0px;
+    display: block;
+    height: 28px;
+    margin: -10px auto 16px auto;
+    width: 301px;
+  }
+  body.franquicias .navbar-nav .active a {
+    color: #fff;
+  }
+  body.franquicias header.transparency .navbar-default .navbar-nav li a {
+    color: #fff;
+  }
+  body.franquicias .navbar-nav li a {
+    color: #000;
+  }
+  body.franquicias .contacto {
+    background-color: #fff;
+  }
+  body.franquicias .contacto h2 {
+    color: #000;
+  }
+  body.franquicias .contacto .submitBtn {
+    background-color: #000;
+    color: #fff;
+  }
+  body.franquicias footer {
+    background: #fff;
+    color: #000;
+  }
+  body.franquicias footer a {
+    color: #000;
+  }
   body {
     font-size: 2em;
     line-height: 1.6em;
+  }
+  body .navbar-nav {
+    padding-left: 50px;
+  }
+  body .navbar-nav li {
+    font-family: 'Lato';
+    font-size: 0.7em;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 0 9px;
+    margin: 0;
+    transition: margin 1s ease;
+  }
+  body .navbar-nav li a {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+  body .navbar-nav li.unidades {
+    margin-left: 130px;
+    padding: 0 20px;
+    float: left;
+    width: auto;
+    display: inline-block;
+  }
+  body .transparency .navbar-nav {
+    padding-left: 30px;
+    transition: padding 1s ease;
+  }
+  body .transparency .navbar-nav li {
+    font-size: 0.6em;
+    padding: 0 10px;
+    transition: margin 1s ease;
+  }
+  body .transparency .navbar-nav li.unidades {
+    margin-left: 10px;
   }
   body p.text {
     padding: 0 70px;
@@ -600,7 +886,14 @@ body footer a:visited {
     margin-top: -50px;
   }
   body .platillos .photos {
-    margin: 0 0 40px 0;
+    margin: -25px 0 40px 0;
+  }
+  body .platillos .photos li .block-clientes {
+    padding: 0 0 200px 0;
+  }
+  body .platillos .photos .desc-bottom,
+  body .platillos .photos h3 {
+    text-align: center;
   }
   body .platillos .steps {
     margin: -230px 0 0;
@@ -608,9 +901,21 @@ body footer a:visited {
     overflow: hidden;
   }
   body .platillos .steps li {
-    height: 100px;
+    height: 70px;
     margin: 0 30px;
-    width: 100px;
+    width: 70px;
+  }
+  body .platillos .steps li.comida {
+    background-position: -500px -171px;
+  }
+  body .platillos .steps li.bebida {
+    background-position: -570px -171px;
+  }
+  body .platillos .steps li.musica {
+    background-position: -645px -171px;
+  }
+  body .platillos .steps li.clientes {
+    background-position: -719px -171px;
   }
   body .unidades p {
     padding: 0 70px;
@@ -656,11 +961,7 @@ body footer a:visited {
     line-height: 1.4em;
   }
   body .unidades .container-info .unidad .mapa {
-    background: transparent url("../images/ubicaciones.jpg") no-repeat left top;
-    height: 127px;
-    margin: 0 auto;
-    padding: 30px 0;
-    width: 297px;
+    width: 82%;
   }
   body .contacto .line {
     width: 80%;
@@ -687,13 +988,27 @@ body footer a:visited {
     padding: 20px 0;
     position: relative;
     height: auto;
-    margin-bottom: 140px;
     display: block;
   }
 }
 @media screen and (min-width:1000px) {
   h2 {
     font-size: 2.8em;
+  }
+  h2.franquicia {
+    margin-left: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  h3 {
+    display: block;
+  }
+  .desc-top {
+    display: none;
+  }
+  .desc-bottom {
+    display: block;
   }
   .item-deco {
     display: inline-block;
@@ -715,6 +1030,42 @@ body footer a:visited {
     height: 28px;
     margin: -10px auto 16px auto;
     width: 301px;
+  }
+  body .navbar-nav {
+    padding-left: 100px;
+  }
+  body .navbar-nav li {
+    font-family: 'Lato';
+    font-size: 0.8em;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 0 15px;
+    margin: 0 10px 0 0;
+    transition: margin 1s ease;
+  }
+  body .navbar-nav li a {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+  body .navbar-nav li.unidades {
+    margin-left: 100px;
+    padding: 0 20px;
+    float: left;
+    width: auto;
+    display: inline-block;
+  }
+  body .transparency .navbar-nav {
+    padding-left: 30px;
+    transition: padding 1s ease;
+  }
+  body .transparency .navbar-nav li {
+    font-size: 0.8em;
+    padding: 0 10px;
+    transition: margin 1s ease;
+  }
+  body .transparency .navbar-nav li.unidades {
+    margin-left: 10px;
   }
   body .logo-slider-container {
     padding-top: 22px;
@@ -776,6 +1127,7 @@ body footer a:visited {
   body .filosofia .container .corona {
     float: left;
     width: 360px;
+    padding: 130px 0 70px 0;
   }
   body .filosofia .container .corona img {
     width: 350px;
@@ -786,11 +1138,39 @@ body footer a:visited {
     padding: 50px 0 0 0;
     width: 568px;
   }
-  body .row.alacran {
-    background: transparent url("../images/alacran-reyes-cover.jpg") no-repeat center bottom;
-    background-size: cover;
+  body .filosofia .container p.text {
+    float: left;
+    width: 568px;
+  }
+  body .hsContainer {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
     height: 570px;
     overflow: hidden;
+    position: relative;
+    opacity: 0;
+    display: block;
+  }
+  body .hsContent {
+    max-width: 450px;
+    margin: -150px auto 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    color: #ebebeb;
+    padding: 0 8%;
+    text-align: center;
+  }
+  body .bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  body #slide-1 .bcg {
+    background-image: url("../images/alacran-reyes-cover.jpg");
   }
   body .platillos h2.nuestros-platillos {
     display: none;
@@ -798,6 +1178,18 @@ body footer a:visited {
   body .platillos h2.concepto {
     display: inline-block;
     font-size: 2.8em;
+  }
+  body .platillos h2.concepto-title {
+    display: inline-block;
+    font-size: 2.8em;
+    margin-top: 40px;
+    padding-bottom: 30px;
+  }
+  body .platillos .item-deco.large {
+    display: inline-block;
+  }
+  body .platillos .bottom-deco.large {
+    display: block;
   }
   body .platillos .photos {
     margin: 0 auto;
@@ -813,7 +1205,7 @@ body footer a:visited {
     width: 33.3%;
   }
   body .platillos .photos li:first-of-type figure {
-    padding-top: 120px;
+    padding-top: 30px;
   }
   body .platillos .photos li figure {
     height: 260px;
@@ -827,29 +1219,33 @@ body footer a:visited {
   body .platillos .photos li h3 {
     padding-left: 30px;
   }
+  body .platillos .photos li h2,
+  body .platillos .photos li span {
+    display: none;
+  }
+  body .platillos .photos li.clientes {
+    display: none;
+  }
   body .platillos .steps {
     display: none;
   }
   body .nuestros-clientes {
     display: block;
-    height: auto;
-    margin: 0 auto;
-    padding-bottom: 50px;
-    width: 960px;
   }
-  body .nuestros-clientes figure {
+  body .nuestros-clientes .photos-container {
     display: block;
-    float: left;
-    height: 160px;
-    margin: 0;
-    padding: 0;
-    width: 160px;
   }
-  body .nuestros-clientes figure img {
+  body .nuestros-clientes .photos-container figure {
+    overflow: hidden;
+  }
+  body .nuestros-clientes .photos-container figure img:hover {
+    width: 140%;
+    height: 140%;
     display: block;
-    float: left;
-    height: 150px;
-    width: 150px;
+    cursor: pointer;
+    margin-left: -20%;
+    margin-top: -20%;
+    transition: all 0.1s ease-in;
   }
   body .unidades .unidades-list {
     display: none;
@@ -862,7 +1258,7 @@ body footer a:visited {
   body .unidades .container-info .unidad {
     width: 319px;
     float: left;
-    padding: 0;
+    padding: 0 0 30px 0;
     margin: 0;
   }
   body .unidades .container-info .unidad.tj,
@@ -871,10 +1267,14 @@ body footer a:visited {
   body .unidades .container-info .unidad.ags {
     display: block;
   }
+  body .unidades .container-info .unidad.df {
+    margin-left: 165px;
+  }
   body .unidades .container-info .unidad figure {
     width: 73px;
     height: 70px;
     margin: 0 auto;
+    background: transparent url("../images/sprite-reyes-cantina.png") no-repeat -866px -165px;
   }
   body .unidades .container-info .unidad p.title {
     text-align: center;
@@ -901,15 +1301,47 @@ body footer a:visited {
     margin: -340px auto 180px auto;
     position: relative;
   }
-  body footer {
-    margin-bottom: 40px;
-  }
   body footer p.text {
     text-align: center;
     padding-top: 30px;
   }
+  body p.text {
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    width: 460px;
+  }
+  body p.text.aviso {
+    width: 800px;
+    padding-top: 30px;
+  }
+}
+@media screen and (min-width:1200px) {
+  body .navbar-nav li.unidades {
+    margin-left: 260px;
+  }
 }
 @media screen and (min-width:1280px) {
+  body .navbar-nav li {
+    font-size: 1em;
+    padding: 0 20px;
+    margin: 0 10px 0 0;
+  }
+  body .navbar-nav li.unidades {
+    margin-left: 130px;
+  }
+  body .transparency .navbar-nav {
+    padding-left: 30px;
+    transition: padding 1s ease;
+  }
+  body .transparency .navbar-nav li {
+    font-size: 0.8em;
+    padding: 0 10px;
+    transition: margin 1s ease;
+  }
+  body .transparency .navbar-nav li.unidades {
+    margin-left: 10px;
+  }
   body .filosofia .container {
     width: 1150px;
   }
@@ -944,9 +1376,6 @@ body footer a:visited {
     text-align: left;
     width: 33.3%;
   }
-  body .platillos .photos li:first-of-type figure {
-    padding-top: 150px;
-  }
   body .platillos .photos li figure {
     height: 300px;
     padding-top: 30px;
@@ -962,21 +1391,32 @@ body footer a:visited {
   body .platillos .photos li h3 {
     text-align: center;
   }
-  body .nuestros-clientes {
+  body .nuestros-clientes .photos-container {
     width: 1150px;
   }
-  body .nuestros-clientes figure {
+  body .nuestros-clientes .photos-container figure {
     display: block;
     float: left;
-    height: 191px;
-    margin: 0;
+    height: 181px;
     padding: 0;
-    width: 191px;
+    width: 181px;
   }
-  body .nuestros-clientes figure img {
+  body .nuestros-clientes .photos-container figure img {
     display: block;
     float: left;
     height: 180px;
     width: 180px;
+  }
+  body .unidades .container-info {
+    width: 1150px;
+  }
+  body .unidades .container-info .unidad {
+    width: 383px;
+  }
+  body .unidades .container-info .unidad p.prox {
+    font-size: 3em;
+  }
+  body .unidades .container-info .unidad.df {
+    margin-left: 190px;
   }
 }

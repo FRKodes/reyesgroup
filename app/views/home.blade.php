@@ -178,8 +178,7 @@
 				<li><a class="gdl" href="#gdl"><span>GDL</span></a></li>
 				<li><a class="ags" href="#ags"><span>AGS</span></a></li>
 				<li><a class="tj" href="#tj"><span>TJ</span></a></li>
-				<li><a class="df" href="#df"><span>DF</span></a></li>
-				<li><a class="pc" href="#pc"><span>PC</span></a></li>
+				<li><a class="cln" href="#cln"><span>CLN</span></a></li>
 			</ul>
 			<div class="container-info">
 				<div class="unidad gdl">
@@ -233,17 +232,11 @@
 						&nbsp;
 					</p>
 				</div>
-				<div class="unidad df">
+				<div class="unidad cln">
 					<figure></figure>
-					<p class="title">DISTRITO FEDERAL</p>
+					<p class="title">CULIACÁN</p>
 					<p class="title prox">Próximamente</p>
 				</div>
-				<div class="unidad pc">
-					<figure></figure>
-					<p class="title">PLAYA DEL CARMEN</p>
-					<p class="title prox">Próximamente</p>
-				</div>
-
 			</div>
 		</section>
 		

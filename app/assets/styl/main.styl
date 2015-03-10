@@ -360,6 +360,32 @@ body
 			padding 0
 			position relative
 			text-align center
+			#sucursales
+				text-align center
+				padding-bottom 29px
+				.container
+					.carousel-caption
+						margin 0 auto
+						position absolute
+						top 0px
+						right 0
+						width 70%
+						float none
+						.tj
+							position relative
+							float left
+							font-size .6em
+							margin-top 70%
+						.ags
+							position relative
+							float right
+							font-size .6em
+							margin-top 70%
+				img
+					text-align center
+					left 0
+					right 0
+					margin-top 14%
 		.carousel-caption
 			color white
 			display inline-block
@@ -516,6 +542,8 @@ body
 						background-position -154px -168px
 					&.pc
 						background-position -206px -168px
+					&.cln
+						background-position right top
 					span
 						visibility hidden
 		.container-info
@@ -533,17 +561,25 @@ body
 				&.df
 				&.pc
 				&.ags
+				&.cln
 					display none
+				figure
+					width 73px
+					height 70px
+					margin 0 auto
+					background transparent url(../images/sprite-reyes-cantina.png) no-repeat -866px -165px
 				.title
 					font-family 'alegre'
 					font-size 2em
 					line-height 1em
+					text-align center
 					&.prox
-						font-family 'Lato'
 						color gray
+						font-family 'Lato'
 						font-size 1em
-						text-transform capitalize
 						line-height .1em
+						text-align center
+						text-transform capitalize
 				.mapa
 					border 1px solid black
 					display block
@@ -643,6 +679,26 @@ body
 				color black
 	#franquiciasBtn
 		margin-top 50px
+@media screen and (min-width:540px)
+	body .logo-slider-container .carousel #sucursales
+		text-align center
+		.container
+			.carousel-caption
+				span
+					font-size 2em
+					width 80%
+				.tj
+					font-size .7em
+					margin-top 70%
+					float left
+					display inline-block
+					width auto
+				.ags
+					font-size .7em
+					margin-top 70%
+					float right
+					display inline-block
+					width auto
 @media screen and (min-width:768px)
 	h2
 		font-size 3.4em
@@ -756,6 +812,9 @@ body
 				margin -25px 0 40px 0
 				li .block-clientes
 					padding 0 0 200px 0
+				.desc-bottom
+				h3
+					text-align center
 			.steps
 				margin -230px 0 0
 				padding 0 0 120px 0
@@ -796,6 +855,8 @@ body
 							background-position -719px -101px
 						&.pc
 							background-position -792px -101px
+						&.cln
+							background-position -1373px top
 			.container-info
 				padding-top 40px
 				.unidad
@@ -931,6 +992,38 @@ body
 				left 46%
 				position absolute
 				width 490px
+			.carousel #sucursales
+				height 550px
+				padding-bottom 0px
+				.container
+					display block
+					float left
+					height 550px
+					padding-top 130px
+					position relative
+					width 100%
+					.carousel-caption
+						padding-top 80px
+						overflow auto
+						span
+							font-size 1em
+							&.tj
+							&.ags
+								margin-top 280px
+							&.tj
+								padding-left 25%
+							&.ags
+								padding-right 8%
+				img
+					margin-top 240px
+			.carousel-inner > #sucursales > img
+				display block
+				float right
+				height auto
+				left 0
+				top -300px
+				position absolute
+				width auto
 		.filosofia
 			padding-top 50px
 			.container
@@ -1058,9 +1151,13 @@ body
 					&.df
 					&.pc
 					&.ags
+					&.cln
 						display block
 					&.df
 						margin-left 165px
+					&.cln
+						margin 0 auto
+						float none
 					figure
 						width 73px
 						height 70px
@@ -1124,6 +1221,11 @@ body
 					transition margin 1s ease
 					&.unidades
 						margin-left 10px
+		
+		.logo-slider-container .carousel #sucursales .container .carousel-caption
+			span
+				&.ags
+					padding-right 23%
 		.filosofia
 			.container
 				width 1150px
