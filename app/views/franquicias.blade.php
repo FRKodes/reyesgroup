@@ -96,7 +96,7 @@
 
 	<section>
 		<p class="text">
-			Esta solicitud será evaluada por Grupo Reyes quien le dará a conocer a usted los siguientes pasos, dentro del proceso de otorgamiento de la franquicia. El tiempo de respuesta será el que la empresa franquiciante determine, la información proporcionada será manejada por Grupo Reyes con absoluta discreción y confidencialidad.
+			Esta solicitud será evaluada por Grupo Reyes Salón Cantina quien le dará a conocer a usted los siguientes pasos, dentro del proceso de otorgamiento de la franquicia. El tiempo de respuesta será el que la empresa franquiciante determine, la información proporcionada será manejada por Grupo Reyes Salón Cantina con absoluta discreción y confidencialidad.
 		</p>
 	</section>
 
