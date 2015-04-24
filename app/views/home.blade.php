@@ -210,7 +210,7 @@
 						Blvd. Aguacaliente 4501-B<br>
 						Col. Aviación<br>
 						Tijuana, B.C.<br>
-						Reservaciones: 12·3456·7890<br>
+						Reservaciones: 664·3678·932<br>
 						Horario: M-S 14:00-3:00<br>
 						&nbsp;
 					</p>
