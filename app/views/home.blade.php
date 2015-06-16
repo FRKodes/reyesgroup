@@ -13,7 +13,7 @@
 				</ol>
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="../images/render-sucursal-culiacan-new.png" width="690" height="749" alt="Render Sucursal Culiacan Reyes Salón Cantina">
+						<img src="../images/render-sucursal-culiacan-sinaloa.png" width="690" height="749" alt="Render Sucursal Culiacan Reyes Salón Cantina">
 						<div class="container">
 							<div class="carousel-caption alegre">
 								<span>BIENVENIDA</span><br>
