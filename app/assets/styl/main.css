@@ -403,6 +403,36 @@ body .logo-slider-container .carousel {
   position: relative;
   text-align: center;
 }
+body .logo-slider-container .carousel #sucursales {
+  text-align: center;
+  padding-bottom: 29px;
+}
+body .logo-slider-container .carousel #sucursales .container .carousel-caption {
+  margin: 0 auto;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 70%;
+  float: none;
+}
+body .logo-slider-container .carousel #sucursales .container .carousel-caption .tj {
+  position: relative;
+  float: left;
+  font-size: 0.6em;
+  margin-top: 70%;
+}
+body .logo-slider-container .carousel #sucursales .container .carousel-caption .ags {
+  position: relative;
+  float: right;
+  font-size: 0.6em;
+  margin-top: 70%;
+}
+body .logo-slider-container .carousel #sucursales img {
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin-top: 14%;
+}
 body .logo-slider-container .carousel-caption {
   color: #fff;
   display: inline-block;
@@ -596,6 +626,9 @@ body .unidades ul li a.df {
 body .unidades ul li a.pc {
   background-position: -206px -168px;
 }
+body .unidades ul li a.cln {
+  background-position: right top;
+}
 body .unidades ul li a span {
   visibility: hidden;
 }
@@ -615,20 +648,29 @@ body .unidades .container-info .unidad {
 body .unidades .container-info .unidad.tj,
 body .unidades .container-info .unidad.df,
 body .unidades .container-info .unidad.pc,
-body .unidades .container-info .unidad.ags {
+body .unidades .container-info .unidad.ags,
+body .unidades .container-info .unidad.cln {
   display: none;
+}
+body .unidades .container-info .unidad figure {
+  width: 73px;
+  height: 70px;
+  margin: 0 auto;
+  background: transparent url("../images/sprite-reyes-cantina.png") no-repeat -866px -165px;
 }
 body .unidades .container-info .unidad .title {
   font-family: 'alegre';
   font-size: 2em;
   line-height: 1em;
+  text-align: center;
 }
 body .unidades .container-info .unidad .title.prox {
-  font-family: 'Lato';
   color: #808080;
+  font-family: 'Lato';
   font-size: 1em;
-  text-transform: capitalize;
   line-height: 0.1em;
+  text-align: center;
+  text-transform: capitalize;
 }
 body .unidades .container-info .unidad .mapa {
   border: 1px solid #000;
@@ -747,6 +789,29 @@ body footer a:visited {
 }
 body #franquiciasBtn {
   margin-top: 50px;
+}
+@media screen and (min-width:540px) {
+  body .logo-slider-container .carousel #sucursales {
+    text-align: center;
+  }
+  body .logo-slider-container .carousel #sucursales .container .carousel-caption span {
+    font-size: 2em;
+    width: 80%;
+  }
+  body .logo-slider-container .carousel #sucursales .container .carousel-caption .tj {
+    font-size: 0.7em;
+    margin-top: 70%;
+    float: left;
+    display: inline-block;
+    width: auto;
+  }
+  body .logo-slider-container .carousel #sucursales .container .carousel-caption .ags {
+    font-size: 0.7em;
+    margin-top: 70%;
+    float: right;
+    display: inline-block;
+    width: auto;
+  }
 }
 @media screen and (min-width:768px) {
   h2 {
@@ -947,6 +1012,9 @@ body #franquiciasBtn {
   body .unidades ul li a.pc {
     background-position: -792px -101px;
   }
+  body .unidades ul li a.cln {
+    background-position: -1373px top;
+  }
   body .unidades .container-info {
     padding-top: 40px;
   }
@@ -1114,6 +1182,47 @@ body #franquiciasBtn {
     position: absolute;
     width: 490px;
   }
+  body .logo-slider-container .carousel #sucursales {
+    height: 550px;
+    padding-bottom: 0px;
+  }
+  body .logo-slider-container .carousel #sucursales .container {
+    display: block;
+    float: left;
+    height: 550px;
+    padding-top: 130px;
+    position: relative;
+    width: 100%;
+  }
+  body .logo-slider-container .carousel #sucursales .container .carousel-caption {
+    padding-top: 80px;
+    overflow: auto;
+  }
+  body .logo-slider-container .carousel #sucursales .container .carousel-caption span {
+    font-size: 1em;
+  }
+  body .logo-slider-container .carousel #sucursales .container .carousel-caption span.tj,
+  body .logo-slider-container .carousel #sucursales .container .carousel-caption span.ags {
+    margin-top: 280px;
+  }
+  body .logo-slider-container .carousel #sucursales .container .carousel-caption span.tj {
+    padding-left: 25%;
+  }
+  body .logo-slider-container .carousel #sucursales .container .carousel-caption span.ags {
+    padding-right: 8%;
+  }
+  body .logo-slider-container .carousel #sucursales img {
+    margin-top: 240px;
+  }
+  body .logo-slider-container .carousel-inner > #sucursales > img {
+    display: block;
+    float: right;
+    height: auto;
+    left: 0;
+    top: -300px;
+    position: absolute;
+    width: auto;
+  }
   body .filosofia {
     padding-top: 50px;
   }
@@ -1264,11 +1373,16 @@ body #franquiciasBtn {
   body .unidades .container-info .unidad.tj,
   body .unidades .container-info .unidad.df,
   body .unidades .container-info .unidad.pc,
-  body .unidades .container-info .unidad.ags {
+  body .unidades .container-info .unidad.ags,
+  body .unidades .container-info .unidad.cln {
     display: block;
   }
   body .unidades .container-info .unidad.df {
     margin-left: 165px;
+  }
+  body .unidades .container-info .unidad.cln {
+    margin: 0 auto;
+    float: none;
   }
   body .unidades .container-info .unidad figure {
     width: 73px;
@@ -1341,6 +1455,9 @@ body #franquiciasBtn {
   }
   body .transparency .navbar-nav li.unidades {
     margin-left: 10px;
+  }
+  body .logo-slider-container .carousel #sucursales .container .carousel-caption span.ags {
+    padding-right: 23%;
   }
   body .filosofia .container {
     width: 1150px;

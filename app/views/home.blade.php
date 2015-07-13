@@ -208,6 +208,11 @@
 						Horario: M-I 14:00-2:00 <br>
 						J-S 14:00-3:00
 					</p>
+					<ul class="social-icons">
+						<li><a href="https://instagram.com/reyescantina" target="_blank" class="icon-instagram"></a></li>
+						<li><a href="https://www.facebook.com/ReyesSalonCantina" target="_blank" class="icon-facebook"></a></li>
+						<li><a href="https://twitter.com/reyescantina" target="_blank" class="icon-twitter"></a></li>
+					</ul>
 				</div>
 				<div class="unidad tj">
 					<figure></figure>
@@ -225,6 +230,10 @@
 						Horario: M-S 14:00-3:00<br>
 						&nbsp;
 					</p>
+					<ul class="social-icons">
+						<li><a href="https://instagram.com/reyescantina_tj" target="_blank" class="icon-instagram"></a></li>
+						<li><a href="https://www.facebook.com/reyesCantinaTJ" target="_blank" class="icon-facebook"></a></li>
+					</ul>
 				</div>
 				<div class="unidad ags">
 					<figure></figure>
@@ -242,15 +251,25 @@
 						Horario: I-S 13:00-3:00<br>
 						&nbsp;
 					</p>
+					<ul class="social-icons">
+						<li><a href="https://instagram.com/reyescantina_ags" target="_blank" class="icon-instagram"></a></li>
+						<li><a href="https://www.facebook.com/reyescantina.ags" target="_blank" class="icon-facebook"></a></li>
+					</ul>
 				</div>
 				<div class="unidad cln">
 					<figure></figure>
+					<p class="title">CULIACÁN</p>
+					<figure class="mapa cln"><a href="https://www.google.com.mx/maps/place/Blvrd+Enrique+S%C3%A1nchez+Alonso+SN-C+LEY+TRES+RIOS,+Desarrollo+Urbano+Tres+R%C3%ADos,+80020+Culiac%C3%A1n+Rosales,+Sin./@24.8136186,-107.4208041,14z/data=!4m7!1m4!3m3!1s0x86bcda11dac6b2ad:0x628286c7f149bc73!2sBlvrd+Enrique+S%C3%A1nchez+Alonso,+Desarrollo+Urbano+Tres+R%C3%ADos,+Culiac%C3%A1n+Rosales,+Sin.!3b1!3m1!1s0x86bcda0968acde8d:0xabd7e0d5b845e1cb?hl=es-419" target="_blank"><img src="images/mapa-reyes-cantina-culiacan.jpg" alt="Mapa Reyes Culiacán" width="589" height="252"></a></figure>
 					<p class="title">CULIACÁN</p>
 					<p>
 						Blvd. Enrique Sánchez Alonso 1651-5<br>
 						Des. Urb. 3 Ríos C.P. 80020<br>
 						Culiacán, Sin.<br>
 					</p>
+					<ul class="social-icons">
+						<li><a href="https://instagram.com/reyescantina_cln" target="_blank" class="icon-instagram"></a></li>
+						<li><a href="https://www.facebook.com/reyesCantinaCLN" target="_blank" class="icon-facebook"></a></li>
+					</ul>
 				</div>
 			</div>
 		</section>
