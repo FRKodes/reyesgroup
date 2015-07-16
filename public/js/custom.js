@@ -174,7 +174,7 @@ $( document ).ready(function() {
         $('.gallery-buttons li').removeClass('active');
         $(this).parent().addClass('active');
         var container = $(this).attr("data-gallery")
-        $('.' + container + '-gallery').css('display','block').delay(1000);
+        $('.' + container + '-gallery').css('display','block');
     });
     
     if ($( window ).width() >= 1280) {
