@@ -321,6 +321,45 @@ section
 				float left
 				height 150px
 				width 150px
+	.gallery-buttons
+		list-style none
+		margin-top 30px
+		margin-bottom 30px
+		li
+			display inline-block
+			width 70px
+			border-radius 50%
+			margin-right 40px
+			height 70px
+			background-position -500px -100px
+			background-repeat no-repeat
+			background-color rgba(white, .1)
+			&.gdl
+				background-image url(../images/sprite-reyes-cantina.png)
+			&.ags
+				background-image url(../images/sprite-reyes-cantina.png)
+				background-position -572px -100px
+			&.tj
+				background-image url(../images/sprite-reyes-cantina.png)
+				background-position -645px -100px
+			&.active
+				background-color rgba(white, .2)
+				transition background-color .5seg ease
+			a
+				width 100%
+				height 100%
+				display block
+				span
+					visibility hidden
+	.ags-gallery
+	.tj-gallery
+		display none
+	.videos
+		background-color black
+		height auto
+		margin 0 auto
+		padding 0
+		width 960px
 .hsContainer 
 	display none
 
@@ -1185,6 +1224,17 @@ body
 						margin-left -20%
 						margin-top -20%
 						transition all 0.1s ease-in
+			.videos
+				height auto
+				margin 0 auto
+				padding 0
+				width 960px
+				iframe
+					width 32%
+					height 300px
+					margin-right 1%
+				
+				
 		.unidades
 			.unidades-list
 				display none
@@ -1341,6 +1391,8 @@ body
 						float left
 						height 180px
 						width 180px
+			.videos
+				width 1150px
 		.unidades
 			.container-info
 				width 1150px

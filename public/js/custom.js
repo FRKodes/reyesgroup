@@ -168,6 +168,14 @@ $( document ).ready(function() {
             $('input[name="porque_compromiso"]').css('display','block');
         };
     });
+
+    $('.gallery-buttons li a').on('click', function(){
+        $('.gallery-container').hide();
+        $('.gallery-buttons li').removeClass('active');
+        $(this).parent().addClass('active');
+        var container = $(this).attr("data-gallery")
+        $('.' + container + '-gallery').css('display','block').delay(1000);
+    });
     
     if ($( window ).width() >= 1280) {
         // Init Skrollr
@@ -179,4 +187,6 @@ $( document ).ready(function() {
             forceHeight: false
         });
     };
+
+
 });
