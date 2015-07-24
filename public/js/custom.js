@@ -52,8 +52,10 @@ $( document ).ready(function() {
             scrollTop: $("#"+anchor).offset().top
         }, 500);
     });    
+    
     /*Carousel*/
     $('#myCarousel').carousel();
+    $('#carouselcontainer').carousel();
     
     if ($( window ).width() >= 1000){
         $('#carousel_food').carousel({ interval: 5050 });
@@ -167,14 +169,6 @@ $( document ).ready(function() {
         if ($(this).val() !== '' && $(this).val() !== 'no') {
             $('input[name="porque_compromiso"]').css('display','block');
         };
-    });
-
-    $('.gallery-buttons li a').on('click', function(){
-        $('.gallery-container').hide();
-        $('.gallery-buttons li').removeClass('active');
-        $(this).parent().addClass('active');
-        var container = $(this).attr("data-gallery")
-        $('.' + container + '-gallery').css('display','block');
     });
     
     if ($( window ).width() >= 1280) {

@@ -16,6 +16,18 @@ Route::get('/', function()
 	return View::make('home');
 });
 
+Route::get('galeria-reyes-cantina-gdl', function (){
+	return View::make('galeria_gdl');
+});
+
+Route::get('galeria-reyes-cantina-ags', function (){
+	return View::make('galeria_ags');
+});
+
+Route::get('galeria-reyes-cantina-tj', function (){
+	return View::make('galeria_tj');
+});
+
 Route::get('franquicias', function (){
 	return View::make('franquicias');
 });

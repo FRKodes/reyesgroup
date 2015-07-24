@@ -165,12 +165,6 @@
 				<span class="item-deco left-deco-white"></span><h2 class="nuestros-platillos white">NUESTROS CLIENTES</h2><span class="item-deco right-deco-white"></span>
 				<span class="bottom-deco-white"></span>
 
-				<ul class="gallery-buttons">
-					<li class="gdl active"><a data-gallery="gdl" href="#gdl" class="unidad-btn"><span>Clientes GDL</span></a></li>
-					<li class="ags"><a data-gallery="ags" href="#ags" class="unidad-btn"><span>Clientes AGS</span></a></li>
-					<li class="tj"><a data-gallery="tj" href="#tj" class="unidad-btn"><span>Clientes TJ</span></a></li>
-				</ul>
-				
 				<div class="gdl-gallery gallery-container">
 					<figure><img src="images/reyes-clientes-01.jpg" width="186" height="186" alt="Diego Luna en Reyes Salón Cantina Guadalajara"></figure>
 					<figure><img src="images/reyes-clientes-02.jpg" width="186" height="186" alt="El lugar perfecto para tomarse unos shots es Reyes Salón Cantina"></figure>
@@ -190,48 +184,6 @@
 					<figure><img src="images/reyes-clientes-16.jpg" width="186" height="186" alt="La foto obligada en la barra del Reyes Salón Cantina"></figure>
 					<figure><img src="images/reyes-clientes-17.jpg" width="186" height="186" alt="El Canelo en Reyes Salón Cantina"></figure>
 					<figure><img src="images/reyes-clientes-18.jpg" width="186" height="186" alt="Faisy de visita en Reyes Salón Cantina"></figure>
-				</div>
-
-				<div class="ags-gallery gallery-container">
-					<figure><img src="images/ags_1.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-					<figure><img src="images/ags_2.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-					<figure><img src="images/ags_3.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-					<figure><img src="images/ags_4.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-					<figure><img src="images/ags_5.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-					<figure><img src="images/ags_6.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-					<figure><img src="images/ags_7.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-					<figure><img src="images/ags_8.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-					<figure><img src="images/ags_9.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-					<figure><img src="images/ags_10.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-					<figure><img src="images/ags_11.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-					<figure><img src="images/ags_12.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-					<figure><img src="images/ags_13.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-					<figure><img src="images/ags_14.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-					<figure><img src="images/ags_15.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-					<figure><img src="images/ags_16.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-					<figure><img src="images/ags_17.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-					<figure><img src="images/ags_18.jpg" width="186" height="186" alt="Reyes Salón Cantina Aguscalientes"></figure>
-				</div>
-
-				<div class="tj-gallery gallery-container">
-					<figure><img src="images/tj_1.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
-					<figure><img src="images/tj_2.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
-					<figure><img src="images/tj_3.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
-					<figure><img src="images/tj_4.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
-					<figure><img src="images/tj_5.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
-					<figure><img src="images/tj_6.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
-					<figure><img src="images/tj_7.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
-					<figure><img src="images/tj_8.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
-					<figure><img src="images/tj_9.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
-					<figure><img src="images/tj_10.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
-					<figure><img src="images/tj_11.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
-					<figure><img src="images/tj_12.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
-					<figure><img src="images/tj_13.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
-					<figure><img src="images/tj_14.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
-					<figure><img src="images/tj_15.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
-					<figure><img src="images/tj_16.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
-					<figure><img src="images/tj_17.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
-					<figure><img src="images/tj_18.jpg" width="186" height="186" alt="Reyes Salón Cantina Tijuana"></figure>
 				</div>
 			</div>
 			<div class="videos">
@@ -271,6 +223,7 @@
 						<li><a href="https://instagram.com/reyescantina" target="_blank" class="icon-instagram"></a></li>
 						<li><a href="https://www.facebook.com/ReyesSalonCantina" target="_blank" class="icon-facebook"></a></li>
 						<li><a href="https://twitter.com/reyescantina" target="_blank" class="icon-twitter"></a></li>
+						<li class="camera"><a href="galeria-reyes-cantina-gdl" target="_blank" class="icon-camera"></a></li>
 					</ul>
 				</div>
 				<div class="unidad tj">
@@ -292,6 +245,7 @@
 					<ul class="social-icons">
 						<li><a href="https://instagram.com/reyescantina_tj" target="_blank" class="icon-instagram"></a></li>
 						<li><a href="https://www.facebook.com/reyesCantinaTJ" target="_blank" class="icon-facebook"></a></li>
+						<li class="camera"><a href="galeria-reyes-cantina-tj" target="_blank" class="icon-camera"></a></li>
 					</ul>
 				</div>
 				<div class="unidad ags">
@@ -313,6 +267,7 @@
 					<ul class="social-icons">
 						<li><a href="https://instagram.com/reyescantina_ags" target="_blank" class="icon-instagram"></a></li>
 						<li><a href="https://www.facebook.com/reyescantina.ags" target="_blank" class="icon-facebook"></a></li>
+						<li class="camera"><a href="galeria-reyes-cantina-ags" target="_blank" class="icon-camera"></a></li>
 					</ul>
 				</div>
 				<div class="unidad cln">

@@ -45,6 +45,8 @@
 	content "b"
 .icon-twitter:before
 	content "c"
+.icon-camera:before
+	content "d"
 	
 html
 	font-family sans-serif
@@ -600,6 +602,8 @@ body
 				border-radius 50%
 				display inline-block
 				margin 0 9px
+				&.camera
+					border-radius 0
 				&:first-of-type
 					margin-left 0
 				a
@@ -768,6 +772,66 @@ body
 				color black
 	#franquiciasBtn
 		margin-top 50px
+
+/*Gallery styles*/
+.galeria-reyes-cantina-gdl
+.galeria-reyes-cantina-ags
+.galeria-reyes-cantina-tj
+	background transparent url(../images/fondo-galeria.jpg) no-repeat center top
+	header.transparency .navbar-default
+		background none
+.galeria-top
+	height 172px
+	.logo
+		width 140px
+		height 140px
+		margin 15px auto 0 auto
+		background transparent url(../images/logo-gdl.png) no-repeat -150px top
+.galeria-reyes-cantina-ags
+	.galeria-top
+		.logo
+			background transparent url(../images/logo-ags.png) no-repeat -150px top
+.galeria-reyes-cantina-tj
+	.galeria-top
+		.logo
+			background transparent url(../images/logo-tj.png) no-repeat -150px top
+.outer
+.inner
+	min-height 250px;
+	width 100%
+	display block
+	overflow hidden
+.carouselcontainer
+	// background transparent url(../images/gdl10.png) no-repeat center center
+	background-size cover
+	overflow hidden
+	min-height 250px
+	img
+		width 100%
+		display block
+		height auto
+.redes-galeria
+	.social-icons
+		list-style none
+		text-align right
+		width 90%
+		border-bottom 1px solid white
+		margin 10px auto
+		padding-bottom 10px
+		li
+			display inline-block
+			a
+				color white
+				font-size 2em
+				margin-left 15px
+footer.galeria
+	background none
+	position relative
+	text-align center
+	font-family 'alegre'
+	font-size 1.6em
+	line-height 1.1em
+	letter-spacing 1px
 @media screen and (min-width:540px)
 	body .logo-slider-container .carousel #sucursales
 		text-align center
@@ -980,6 +1044,72 @@ body
 			position relative
 			height auto
 			display block
+	.galeria-top
+		background-color red
+		height 270px
+		.logo
+			width 155px
+			height 155px
+			margin-top 25px
+			background transparent url(../images/logo-gdl.png) no-repeat 2px top
+	.galeria-reyes-cantina-ags
+		.galeria-top
+			.logo
+				background transparent url(../images/logo-ags.png) no-repeat 2px top
+	.galeria-reyes-cantina-tj
+		.galeria-top
+			.logo
+				background transparent url(../images/logo-tj.png) no-repeat 2px top
+	.carouselcontainer
+		min-height 482px
+	.outer
+		border 1px solid white
+		margin 0 auto
+		overflow visible
+		position relative
+		width 750px
+		height 510px
+		z-index 1
+	.inner
+		border 1px solid white
+		display block
+		margin -13px auto 0 auto
+		min-height 450px
+		padding 25px 0
+		position relative
+		width 736px
+		z-index 2
+		.carousel-inner
+			display block
+			img
+				width 720px
+				margin 0 auto
+		
+	.redes-galeria
+		.social-icons
+			list-style none
+			text-align right
+			margin 30px auto
+			padding-bottom 10px
+			width 750px
+			li
+				display inline-block
+				a
+					color white
+					font-size 2em
+					margin-left 15px
+					&:hover
+						text-decoration none
+	footer.galeria
+		background none
+		position relative
+		text-align center
+		font-family 'alegre'
+		font-size 1.6em
+		line-height 1.1em
+		letter-spacing 1px
+		overflow hidden
+		background-color black
 @media screen and (min-width:1000px)
 	h2
 		font-size 2.8em
@@ -1163,8 +1293,6 @@ body
 		/* Slide 1 */
 		#slide-1 .bcg
 			background-image url('../images/alacran-reyes-cover.jpg')
-			
-
 		.platillos
 			h2.nuestros-platillos
 				display none
@@ -1308,6 +1436,71 @@ body
 			width 800px
 			padding-top 30px
 		
+		/*Gallery*/
+	.galeria-reyes-cantina-gdl
+	.galeria-reyes-cantina-ags
+	.galeria-reyes-cantina-tj
+		background-color black
+		.carouselcontainer
+			min-height 642px
+		.outer
+			border 1px solid white
+			margin 0 auto
+			overflow visible
+			position relative
+			width 990px
+			height 650px
+			z-index 1
+		.inner
+			border 1px solid white
+			display block
+			margin -13px auto 0 auto
+			min-height 450px
+			height 676px
+			padding 25px 0 40px 0
+			position relative
+			width 968px
+			z-index 2
+			.carousel-inner
+				display block
+				text-align center
+				.item
+					margin 0 auto
+					img
+						width 920px
+						margin 0 auto
+			
+		.redes-galeria
+			.social-icons
+				list-style none
+				text-align right
+				margin 30px auto
+				padding-bottom 10px
+				width 990px
+				li
+					display inline-block
+					a
+						color white
+						font-size 2em
+						margin-left 15px
+						&:hover
+							text-decoration none
+		footer.galeria
+			background none
+			position relative
+			text-align center
+			font-family 'alegre'
+			font-size 1.6em
+			line-height 1.1em
+			letter-spacing 1px
+			overflow hidden
+			background-color black
+	.galeria-reyes-cantina-gdl
+	.galeria-reyes-cantina-ags
+	.galeria-reyes-cantina-tj
+		background transparent url(../images/fondo-galeria.jpg) no-repeat center center
+		background-size cover
+			
 @media screen and (min-width:1200px)
 	body
 		.navbar-nav
