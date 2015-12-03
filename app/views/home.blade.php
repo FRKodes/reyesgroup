@@ -201,8 +201,10 @@
 				<li><a class="ags" href="#ags"><span>AGS</span></a></li>
 				<li><a class="tj" href="#tj"><span>TJ</span></a></li>
 				<li><a class="cln" href="#cln"><span>CLN</span></a></li>
+				<li><a class="mxl" href="#mxl"><span>MXL</span></a></li>
 			</ul>
 			<div class="container-info">
+				
 				<div class="unidad gdl">
 					<figure></figure>
 					<p class="title">GUADALAJARA</p>
@@ -226,6 +228,7 @@
 						<li class="camera"><a href="galeria-reyes-cantina-gdl" target="_blank" class="icon-camera"></a></li>
 					</ul>
 				</div>
+				
 				<div class="unidad tj">
 					<figure></figure>
 					<p class="title">TIJUANA</p>
@@ -248,6 +251,7 @@
 						<li class="camera"><a href="galeria-reyes-cantina-tj" target="_blank" class="icon-camera"></a></li>
 					</ul>
 				</div>
+				
 				<div class="unidad ags">
 					<figure></figure>
 					<p class="title">AGUASCALIENTES</p>
@@ -270,11 +274,11 @@
 						<li class="camera"><a href="galeria-reyes-cantina-ags" target="_blank" class="icon-camera"></a></li>
 					</ul>
 				</div>
+				
 				<div class="unidad cln">
 					<figure></figure>
 					<p class="title">CULIACÁN</p>
 					<figure class="mapa cln"><a href="https://www.google.com.mx/maps/place/Blvrd+Enrique+S%C3%A1nchez+Alonso+SN-C+LEY+TRES+RIOS,+Desarrollo+Urbano+Tres+R%C3%ADos,+80020+Culiac%C3%A1n+Rosales,+Sin./@24.8136186,-107.4208041,14z/data=!4m7!1m4!3m3!1s0x86bcda11dac6b2ad:0x628286c7f149bc73!2sBlvrd+Enrique+S%C3%A1nchez+Alonso,+Desarrollo+Urbano+Tres+R%C3%ADos,+Culiac%C3%A1n+Rosales,+Sin.!3b1!3m1!1s0x86bcda0968acde8d:0xabd7e0d5b845e1cb?hl=es-419" target="_blank"><img src="images/mapa-reyes-cantina-culiacan.jpg" alt="Mapa Reyes Culiacán" width="589" height="252"></a></figure>
-					<p class="title">CULIACÁN</p>
 					<p>
 						Blvd. Enrique Sánchez Alonso 1651-5<br>
 						Des. Urb. 3 Ríos C.P. 80020<br>
@@ -285,6 +289,23 @@
 						<li><a href="https://www.facebook.com/reyesCantinaCLN" target="_blank" class="icon-facebook"></a></li>
 					</ul>
 				</div>
+
+				<div class="unidad mxl">
+					<figure></figure>
+					<p class="title">MEXICALI</p>
+					<figure class="mapa mxl"><a href="" target="_blank"><img src="images/mapa-reyes-cantina-mexicali.jpg" alt="Mapa Reyes Mexicali" width="589" height="252"></a></figure>
+					<p>
+						Calzada Cuauhtémoc No. 100 <br>
+						Colonia Aviación <br>
+						Mexicali, B.C.
+						<br>
+					</p>
+					<ul class="social-icons">
+						<li><a href="https://instagram.com/reyescantina_mxl" target="_blank" class="icon-instagram"></a></li>
+						<li><a href="https://www.facebook.com/ReyesCantinaMXL" target="_blank" class="icon-facebook"></a></li>
+					</ul>
+				</div>
+
 			</div>
 		</section>
 		
