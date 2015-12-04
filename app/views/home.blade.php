@@ -293,7 +293,7 @@
 				<div class="unidad mxl">
 					<figure></figure>
 					<p class="title">MEXICALI</p>
-					<figure class="mapa mxl"><a href="" target="_blank"><img src="images/mapa-reyes-cantina-mexicali.jpg" alt="Mapa Reyes Mexicali" width="589" height="252"></a></figure>
+					<figure class="mapa mxl"><a href="https://www.google.com.mx/maps/place/Calz+Cuauht%C3%A9moc+100,+Aviaci%C3%B3n,+21230+Mexicali,+B.C./@32.6574345,-115.4517016,17z/data=!3m1!4b1!4m2!3m1!1s0x80d7706aa7f6c1f3:0xff0bb2a11495fb78?hl=es-419" target="_blank"><img src="images/mapa-reyes-cantina-mexicali.jpg" alt="Mapa Reyes Mexicali" width="589" height="252"></a></figure>
 					<p>
 						Calzada Cuauhtémoc No. 100 <br>
 						Colonia Aviación <br>
