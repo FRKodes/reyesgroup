@@ -35,7 +35,7 @@ Route::get('franquicias', function (){
 Route::post('franquicias', function()
 {
 	Mail::send('emails.franquicia', [], function($message){
-		$message->to('relacionespublicas@reyesgroup.com.mx')->cc('checo@agorax.mx')->subject('Reyes Group, interesado en franquicia.');
+		$message->to('relacionespublicas@reyesgroup.com.mx')->cc('checo@agorax.mx')->cc('naty_escobar@hotmail.com')->subject('Reyes Group, interesado en franquicia.');
 	});
 });
 
@@ -46,6 +46,6 @@ Route::get('aviso-de-privacidad', function (){
 Route::post('/sendmail', function()
 {
 	Mail::send('emails.contacto', [], function($message){
-		$message->to('relacionespublicas@reyesgroup.com.mx')->cc('checo@agorax.mx')->subject('Reyes Group, mail de contacto.');
+		$message->to('relacionespublicas@reyesgroup.com.mx')->cc('checo@agorax.mx')->cc('naty_escobar@hotmail.com')->subject('Reyes Group, mail de contacto.');
 	});
 });
