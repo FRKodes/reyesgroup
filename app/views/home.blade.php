@@ -8,11 +8,11 @@
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 					<li data-target="#myCarousel" data-slide-to="1"></li>
-					<li data-target="#myCarousel" data-slide-to="2"></li>
-					<li data-target="#myCarousel" data-slide-to="3"></li>
+					{{-- <li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li> --}}
 				</ol>
 				<div class="carousel-inner" role="listbox">
-					<div class="item active">
+					{{-- <div class="item active">
 						<img src="../images/render-sucursal-culiacan-sinaloa.png" width="690" height="749" alt="Render Sucursal Culiacan Reyes Salón Cantina">
 						<div class="container">
 							<div class="carousel-caption alegre">
@@ -21,8 +21,8 @@
 								CULIACÁN
 							</div>
 						</div>
-					</div>
-					<div class="item" id="sucursales">
+					</div> --}}
+					{{-- <div class="item" id="sucursales">
 						<img src="../images/bienvenidas-sucursales-tijuana-y-aguascalientes.png" width="690" height="749" alt="Bienvenidas Sucursales Tijuana y Aguascalientes">
 						<div class="container">
 							<div class="carousel-caption alegre">
@@ -30,8 +30,8 @@
 								<span class="tj">Tijuana</span><span class="ags">Aguascalientes</span>
 							</div>
 						</div>
-					</div>
-					<div class="item">
+					</div> --}}
+					<div class="item active">
 						<img src="../images/la-vitola-tuetano-reyes-salon-cantina-mas-tejuino-con-cerveza.png" width="690" height="749" alt="la vitola, tuétano en Reyes Salón Cantina más tejuino con cerveza">
 						<div class="container">
 							<div class="carousel-caption alegre">
@@ -254,24 +254,23 @@
 				
 				<div class="unidad ags">
 					<figure></figure>
-					<p class="title">AGUASCALIENTES</p>
+					<p class="title">HERMOSILLO</p>
 					<figure class="mapa ags">
-						<a href="https://www.google.com.mx/maps/place/Luis+Donaldo+Colosio+511,+Jardines+de+La+Concepci%C3%B3n+II,+20120+Aguascalientes,+AGS/@21.9249091,-102.3026193,17z/data=!3m1!4b1!4m2!3m1!1s0x8429ef070f7571fb:0xb3c15dc699c3c05d" target="_blank" title="Ir al mapa de Reyes Salón Cantina Aguascalientes en una ventana nueva">
-							<img src="images/mapa-reyes-cantina-aguascalientes.jpg" alt="Mapa reyes cantina aguascalientes" width="589" height="252">
+						<a href="https://www.google.com.mx/maps/place/Luis+Donaldo+Colosio+511,+Jardines+de+La+Concepci%C3%B3n+II,+20120+Aguascalientes,+AGS/@21.9249091,-102.3026193,17z/data=!3m1!4b1!4m2!3m1!1s0x8429ef070f7571fb:0xb3c15dc699c3c05d" target="_blank" title="Ir al mapa de Reyes Salón Cantina Hermosillo en una ventana nueva">
+							<img src="images/mapa-reyes-cantina-hermosillo.png" alt="Mapa reyes cantina Hermosillo" width="589" height="252">
 						</a>
 					</figure>
 					<p>
-						Blvd. Luis Donaldo Colosio 511<br>
-						Col. Jardines de la concepción<br>
-						Ags, Aguascalientes.<br>
-						Reservaciones: 44·9463·2358<br>
-						Horario: I-S 13:00-3:00<br>
+						Blvd. Luis Donaldo Colosio 836 <br>
+						Hermosillo, Sonora. <br>
+						C.P.83200 <br>
+						&nbsp;<br>
+						&nbsp;<br>
 						&nbsp;
 					</p>
 					<ul class="social-icons">
-						<li><a href="https://instagram.com/reyescantina_ags" target="_blank" class="icon-instagram"></a></li>
-						<li><a href="https://www.facebook.com/reyescantina.ags" target="_blank" class="icon-facebook"></a></li>
-						<li class="camera"><a href="galeria-reyes-cantina-ags" target="_blank" class="icon-camera"></a></li>
+						<li><a href="https://instagram.com/reyescantina_hmo" target="_blank" class="icon-instagram"></a></li>
+						<li><a href="https://www.facebook.com/reyesCantinaHMO" target="_blank" class="icon-facebook"></a></li>
 					</ul>
 				</div>
 				
