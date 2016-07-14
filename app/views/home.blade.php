@@ -8,8 +8,8 @@
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 					<li data-target="#myCarousel" data-slide-to="1"></li>
-					{{-- <li data-target="#myCarousel" data-slide-to="2"></li>
-					<li data-target="#myCarousel" data-slide-to="3"></li> --}}
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					{{-- <li data-target="#myCarousel" data-slide-to="3"></li> --}}
 				</ol>
 				<div class="carousel-inner" role="listbox">
 					{{-- <div class="item active">
@@ -22,16 +22,16 @@
 							</div>
 						</div>
 					</div> --}}
-					{{-- <div class="item" id="sucursales">
-						<img src="../images/bienvenidas-sucursales-tijuana-y-aguascalientes.png" width="690" height="749" alt="Bienvenidas Sucursales Tijuana y Aguascalientes">
-						<div class="container">
+					<div class="item active">
+						<img src="../images/banner-hermosillo1.png" width="690" height="749" alt="banner sucursal hermosillo">
+						<div class="container hmo">
 							<div class="carousel-caption alegre">
-								<span>Sucursales</span><br>
-								<span class="tj">Tijuana</span><span class="ags">Aguascalientes</span>
+								<span class="hmo1">HOLA HMO</span><br>
+								<span class="hmo2">#ESDEREYES</span>
 							</div>
 						</div>
-					</div> --}}
-					<div class="item active">
+					</div>
+					<div class="item">
 						<img src="../images/la-vitola-tuetano-reyes-salon-cantina-mas-tejuino-con-cerveza.png" width="690" height="749" alt="la vitola, tuétano en Reyes Salón Cantina más tejuino con cerveza">
 						<div class="container">
 							<div class="carousel-caption alegre">
@@ -256,7 +256,7 @@
 					<figure></figure>
 					<p class="title">HERMOSILLO</p>
 					<figure class="mapa ags">
-						<a href="https://www.google.com.mx/maps/place/Luis+Donaldo+Colosio+511,+Jardines+de+La+Concepci%C3%B3n+II,+20120+Aguascalientes,+AGS/@21.9249091,-102.3026193,17z/data=!3m1!4b1!4m2!3m1!1s0x8429ef070f7571fb:0xb3c15dc699c3c05d" target="_blank" title="Ir al mapa de Reyes Salón Cantina Hermosillo en una ventana nueva">
+						<a href="https://www.google.com.mx/maps/place/29%C2%B004'53.7%22N+111%C2%B001'16.6%22W/@29.0815863,-111.0218858,18z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d29.081585!4d-111.021273" target="_blank" title="Ir al mapa de Reyes Salón Cantina Hermosillo en una ventana nueva">
 							<img src="images/mapa-reyes-cantina-hermosillo.png" alt="Mapa reyes cantina Hermosillo" width="589" height="252">
 						</a>
 					</figure>
