@@ -23,7 +23,7 @@
 						</div>
 					</div> --}}
 					<div class="item active">
-						<img src="../images/banner-hermosillo1.png" width="690" height="749" alt="banner sucursal hermosillo">
+						<img src="../images/banner-hermosillo2.png" width="690" height="749" alt="banner sucursal hermosillo">
 						<div class="container hmo">
 							<div class="carousel-caption alegre">
 								<span class="hmo1">HOLA HMO</span><br>
