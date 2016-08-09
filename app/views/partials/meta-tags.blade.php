@@ -1,5 +1,6 @@
 <meta charset="UTF-8">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="google-site-verification" content="oiZ3RbTvZOEuABucy-NsP-TyVnrm4zY13CVMOR-7myc" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="description" content="Reyes Group, sitio web del grupo que desarrolla el concepto de reyes salón cantina. Los creadores del original shot de alacrán desde Guadalajara Jalisco, México.">
 <meta name="keywords" content="reyes, reyes salon, cantina, shot de alacrán, mezcal, shot de mezcal">
