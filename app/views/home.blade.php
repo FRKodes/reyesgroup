@@ -261,7 +261,7 @@
 						</a>
 					</figure>
 					<p>
-						Blvd. Luis Donaldo Colosio 836 <br>
+						Blvd. Luis Donaldo Colosio 386 <br>
 						Hermosillo, Sonora. <br>
 						C.P.83200 <br>
 						&nbsp;<br>
