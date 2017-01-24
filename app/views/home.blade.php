@@ -202,6 +202,7 @@
 				<li><a class="tj" href="#tj"><span>TJ</span></a></li>
 				<li><a class="cln" href="#cln"><span>CLN</span></a></li>
 				<li><a class="mxl" href="#mxl"><span>MXL</span></a></li>
+				<li><a class="xal" href="#xal"><span>XL</span></a></li>
 			</ul>
 			<div class="container-info">
 				
@@ -302,6 +303,21 @@
 					<ul class="social-icons">
 						<li><a href="https://instagram.com/reyescantina_mxl" target="_blank" class="icon-instagram"></a></li>
 						<li><a href="https://www.facebook.com/ReyesCantinaMXL" target="_blank" class="icon-facebook"></a></li>
+					</ul>
+				</div>
+
+				<div class="unidad xal">
+					<figure></figure>
+					<p class="title">XALAPA</p>
+					<figure class="mapa xal"><a href="https://goo.gl/maps/syoC62qm6Gq" target="_blank"><img src="images/mapa-reyes-cantina-xalapa-veracruz.jpg" alt="Mapa Reyes Xalapa Veracruz" width="589" height="252"></a></figure>
+					<p>
+						Power Center Xanat<br>
+						Carretera Xalapa - Veracruz km 4+300<br>
+						Teléfono 2288129099 <br>
+					</p>
+					<ul class="social-icons">
+						<li><a href="https://instagram.com/reyesCantina_XL" target="_blank" class="icon-instagram"></a></li>
+						<li><a href="https://www.facebook.com/reyesCantinaXL" target="_blank" class="icon-facebook"></a></li>
 					</ul>
 				</div>
 
