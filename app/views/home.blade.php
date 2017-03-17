@@ -9,48 +9,13 @@
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 					<li data-target="#myCarousel" data-slide-to="1"></li>
 					<li data-target="#myCarousel" data-slide-to="2"></li>
-					{{-- <li data-target="#myCarousel" data-slide-to="3"></li> --}}
+					<li data-target="#myCarousel" data-slide-to="3"></li>
 				</ol>
 				<div class="carousel-inner" role="listbox">
-					{{-- <div class="item active">
-						<img src="../images/render-sucursal-culiacan-sinaloa.png" width="690" height="749" alt="Render Sucursal Culiacan Reyes Salón Cantina">
-						<div class="container">
-							<div class="carousel-caption alegre">
-								<span>BIENVENIDA</span><br>
-								<span>SUCURSAL</span><br>
-								CULIACÁN
-							</div>
-						</div>
-					</div> --}}
-					<div class="item active">
-						<img src="../images/banner-hermosillo2.png" width="690" height="749" alt="banner sucursal hermosillo">
-						<div class="container hmo">
-							<div class="carousel-caption alegre">
-								<span class="hmo1">HOLA HMO</span><br>
-								<span class="hmo2">#ESDEREYES</span>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<img src="../images/la-vitola-tuetano-reyes-salon-cantina-mas-tejuino-con-cerveza.png" width="690" height="749" alt="la vitola, tuétano en Reyes Salón Cantina más tejuino con cerveza">
-						<div class="container">
-							<div class="carousel-caption alegre">
-								<span>#ESDEREYES</span><br>
-								<span>LA CANTINA</span><br>
-								GOURMET DE MÉXICO
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<img src="../images/barra-reyes-cantina-vista-frontal.png" width="690" height="749" alt="barra reyes salón cantina vista frontal">
-						<div class="container">
-							<div class="carousel-caption alegre">
-								<span>fusión entre</span><br>
-								<span>tradicional</span><br>
-								y contemporáneo
-							</div>
-						</div>
-					</div>
+					<div class="item active"><img src="../images/reyes-cantina-banner-01.jpg" width="690" height="749" alt=""></div>
+					<div class="item"><img src="../images/reyes-cantina-banner-02-.jpg" width="690" height="749" alt=""></div>
+					<div class="item"><img src="../images/reyes-cantina-banner-03-.jpg" width="690" height="749" alt=""></div>
+					<div class="item"><img src="../images/reyes-cantina-banner-04-.jpg" width="690" height="749" alt=""></div>
 				</div>
 				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
