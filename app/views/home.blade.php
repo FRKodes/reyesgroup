@@ -64,9 +64,9 @@
 					<p class="desc-top">Comida tradicional Mexicana que fusiona platillos de diferentes regiones del país con ingredientes y recetas de diversas partes del mundo.</p>
 					<div id="carousel_food" class="carousel_food slide">
 						<div class="carousel-inner" role="listbox">
-							<div class="item active"><img src="../images/comida-platillo-el-mil-amores-reyes-cantina.png" width="687" height="570" alt="Platillo 'El mil amores' en Reyes Salón Cantina"></div>
-							<div class="item"><img src="../images/comida-platillo-tongolele-reyes-cantina.png" width="687" height="570" alt="Quesadilla 'tongolele' en Reyes Salón Cantina"></div>
-							<div class="item"><img src="../images/la-tuzita-reyes-salon-cantina.png" width="687" height="570" alt="La tuzita, churros cubiertos en azucar, canela, cajeta y leche condensada."></div>
+							<div class="item active"><img src="../images/comida-01.jpg" width="687" height="570" alt="comida 01"></div>
+							<div class="item"><img src="../images/comida-02.jpg" width="687" height="570" alt="comida 02"></div>
+							<div class="item"><img src="../images/comida-03.jpg" width="687" height="570" alt="comida 03"></div>
 						</div>
 					</div>
 					<h3>Nuestros platillos</h3>
@@ -75,30 +75,31 @@
 				<li class="bebida">
 					<span class="item-deco left-deco"></span><h2>NUESTRAS BEBIDAS</h2><span class="item-deco right-deco"></span>
 					<span class="bottom-deco"></span>
-					<p class="desc-top">El shot de mezcal con alacrán y la michelada mar y tierra o con tejuino son algunas de las bebidas más populares entre nuestros clientes.</p>
+					<p class="desc-top">El shot de mezcal con alacrán , nuestros famoso gallos y el cantarito, son algunas de las bebidas más populares entre nuestros clientes.</p>
 					<div id="carousel_beberages" class="carousel_beberages slide">
 						<div class="carousel-inner" role="listbox">
-							<div class="item active"><img src="../images/bebida-shot-de-mexcal-con-alacran.png" width="687" height="570" alt="El famoso shot de mezcal con alacrán"></div>
-							<div class="item"><img src="../images/bebida-michelada-mar-y-tierra-reyes-cantina.png" width="687" height="570" alt="La michelada mar y tierra o con tejuino."></div>
-							<div class="item"><img src="../images/bebida-martini-de-pepino-reyes-cantina.png" width="687" height="570" alt="Martini de pepino."></div>
+							<div class="item active"><img src="../images/bebida-01-shot-alacran.jpg" width="687" height="570" alt="bebida 01 shot alacran"></div>
+							<div class="item"><img src="../images/bebida-02-jarrito.jpg" width="687" height="570" alt="bebida 02 jarrito"></div>
+							<div class="item"><img src="../images/bebida-03-gallo.jpg" width="687" height="570" alt="bebida 03 gallo"></div>
+							<div class="item"><img src="../images/bebida-04-jarrito.jpg" width="687" height="570" alt="bebida 04 jarrito"></div>
 						</div>
 					</div>
 					<h3>Nuestras bebidas</h3>
-					<p class="desc-bottom">El shot de mezcal con alacrán y la michelada mar y tierra o con tejuino son algunas de las bebidas más populares entre nuestros clientes.</p>
+					<p class="desc-bottom">El shot de mezcal con alacrán , nuestros famoso gallos y el cantarito, son algunas de las bebidas más populares entre nuestros clientes.</p>
 				</li>
 				<li class="musica">
 					<span class="item-deco left-deco"></span><h2>NUESTRA MÚSICA</h2><span class="item-deco right-deco"></span>
 					<span class="bottom-deco"></span>
-					<p class="desc-top">Música tradicional mexicana en fusión con diferentes géneros como salsa, merengue, bachata y el top chart de pop del momento.</p>
+					<p class="desc-top">Música tradicional mexicana en fusión con diferentes géneros como, salsa, bachata y el top chart de pop del momento.</p>
 					<div id="carousel_musica" class="carousel_musica slide">
 						<div class="carousel-inner" role="listbox">
-							<div class="item active"><img src="../images/concepto-musica-reyes-cantina.png" width="687" height="570" alt="Música tradicional mexicana en fusión con diferentes géneros como salsa, merengue, bachata y el top chart de pop del momento."></div>
+							<div class="item active"><img src="../images/concepto-musica-reyes-cantina.png" width="687" height="570" alt="Música tradicional mexicana en fusión con diferentes géneros como, salsa, bachata y el top chart de pop del momento."></div>
 							<div class="item"><img src="../images/concepto-musica-trioker-reyes-cantina.png" width="687" height="570" alt="Los trioker en Reyes Salón Canitna"></div>
 							<div class="item"><img src="../images/concepto-musica-DJ-funky-kong-reyes-cantina.png" width="687" height="570" alt="DJ Funky Kong en Reyes Salón Canitna"></div>
 						</div>
 					</div>
 					<h3>Nuestra música</h3>
-					<p class="desc-bottom">Música tradicional mexicana en fusión con diferentes géneros como salsa, merengue, bachata y el top chart de pop del momento.</p>
+					<p class="desc-bottom">Música tradicional mexicana en fusión con diferentes géneros como, salsa, bachata y el top chart de pop del momento.</p>
 				</li>
 				<li class="clientes">
 					<span class="item-deco left-deco"></span><h2>NUESTROS CLIENTES</h2><span class="item-deco right-deco"></span>
@@ -108,10 +109,10 @@
 
 					<p class="desc-top"></p>
 					<div class="block-clientes">
-						<figure><img src="images/reyes-clientes-01.jpg" width="186" height="186" alt="Diego Luna en Reyes Salón Cantina Guadalajara"></figure>
-						<figure><img src="images/reyes-clientes-06.jpg" width="186" height="186" alt="Martha Higareda tomando unos shots en Reyes Salón Cantina"></figure>
-						<figure><img src="images/reyes-clientes-09.jpg" width="186" height="186" alt="Pasándola de lujo en Reyes"></figure>
-						<figure><img src="images/reyes-clientes-17.jpg" width="186" height="186" alt="El Canelo en Reyes Salón Cantina"></figure>
+						<figure><img src="images/c1.jpg" width="186" height="186" alt="clientes reyes 01"></figure>
+						<figure><img src="images/c2.jpg" width="186" height="186" alt="clientes reyes 02"></figure>
+						<figure><img src="images/c3.jpg" width="186" height="186" alt="clientes reyes 03"></figure>
+						<figure><img src="images/c4.jpg" width="186" height="186" alt="clientes reyes 04"></figure>
 					</div>
 					<h3>Nuestros clientes</h3>
 					<p class="desc-bottom"></p>
@@ -134,21 +135,21 @@
 					<figure><img src="images/reyes-clientes-01.jpg" width="186" height="186" alt="Diego Luna en Reyes Salón Cantina Guadalajara"></figure>
 					<figure><img src="images/reyes-clientes-02.jpg" width="186" height="186" alt="El lugar perfecto para tomarse unos shots es Reyes Salón Cantina"></figure>
 					<figure><img src="images/reyes-clientes-03.jpg" width="186" height="186" alt="Para pasarla bien con los amigos está el Reyes Salón Cantina"></figure>
-					<figure><img src="images/reyes-clientes-04.jpg" width="186" height="186" alt="Noche de amigos en Reyes"></figure>
-					<figure><img src="images/reyes-clientes-05.jpg" width="186" height="186" alt="Sebu Simonian de Capital Cities tomando un shot de alacrán en Reyes Salón Cantina"></figure>
-					<figure><img src="images/reyes-clientes-06.jpg" width="186" height="186" alt="Martha Higareda tomando unos shots en Reyes Salón Cantina"></figure>
-					<figure><img src="images/reyes-clientes-07.jpg" width="186" height="186" alt="Noche de amigas en Reyes Salón Cantina"></figure>
-					<figure><img src="images/reyes-clientes-08.jpg" width="186" height="186" alt="Amigos de copas en Reyes"></figure>
-					<figure><img src="images/reyes-clientes-09.jpg" width="186" height="186" alt="Pasándola de lujo en Reyes"></figure>
-					<figure><img src="images/reyes-clientes-10.jpg" width="186" height="186" alt="Facundo Reyes img"></figure>
-					<figure><img src="images/reyes-clientes-11.jpg" width="186" height="186" alt="Los amigos en Reyes la pasan mejor"></figure>
-					<figure><img src="images/reyes-clientes-12.jpg" width="186" height="186" alt="Despedida de soltera en Reyes Salón Cantina"></figure>
-					<figure><img src="images/reyes-clientes-13.jpg" width="186" height="186" alt="Viva México! en Reyes Salón Cantina"></figure>
-					<figure><img src="images/reyes-clientes-14.jpg" width="186" height="186" alt="Pasándola bien en Reyes con Diego Luna"></figure>
-					<figure><img src="images/reyes-clientes-15.jpg" width="186" height="186" alt="Lupita D'Alessio en Reyes"></figure>
-					<figure><img src="images/reyes-clientes-16.jpg" width="186" height="186" alt="La foto obligada en la barra del Reyes Salón Cantina"></figure>
-					<figure><img src="images/reyes-clientes-17.jpg" width="186" height="186" alt="El Canelo en Reyes Salón Cantina"></figure>
-					<figure><img src="images/reyes-clientes-18.jpg" width="186" height="186" alt="Faisy de visita en Reyes Salón Cantina"></figure>
+					<figure><img src="images/reyes-clientes-14.jpg" width="186" height="186" alt="The blue man group"></figure>
+					<figure><img src="images/c1.jpg" width="186" height="186" alt="clientes reyes 01"></figure>
+					<figure><img src="images/c2.jpg" width="186" height="186" alt="clientes reyes 02"></figure>
+					<figure><img src="images/c3.jpg" width="186" height="186" alt="clientes reyes 03"></figure>
+					<figure><img src="images/c4.jpg" width="186" height="186" alt="clientes reyes 04"></figure>
+					<figure><img src="images/c5.jpg" width="186" height="186" alt="clientes reyes 05"></figure>
+					<figure><img src="images/c6.jpg" width="186" height="186" alt="clientes reyes 06"></figure>
+					<figure><img src="images/c7.jpg" width="186" height="186" alt="clientes reyes 07"></figure>
+					<figure><img src="images/c8.jpg" width="186" height="186" alt="clientes reyes 08"></figure>
+					<figure><img src="images/c9.jpg" width="186" height="186" alt="clientes reyes 09"></figure>
+					<figure><img src="images/c10.jpg" width="186" height="186" alt="c1lientes reyes 00"></figure>
+					<figure><img src="images/c11.jpg" width="186" height="186" alt="c1lientes reyes 01"></figure>
+					<figure><img src="images/c12.jpg" width="186" height="186" alt="c1lientes reyes 02"></figure>
+					<figure><img src="images/c13.jpg" width="186" height="186" alt="c1lientes reyes 03"></figure>
+					<figure><img src="images/c14.jpg" width="186" height="186" alt="c1lientes reyes 04"></figure>
 				</div>
 			</div>
 			<div class="videos">
@@ -168,6 +169,7 @@
 				<li><a class="cln" href="#cln"><span>CLN</span></a></li>
 				<li><a class="mxl" href="#mxl"><span>MXL</span></a></li>
 				<li><a class="xal" href="#xal"><span>XL</span></a></li>
+				<li><a class="qro" href="#qro"><span>QRO</span></a></li>
 			</ul>
 			<div class="container-info">
 				
@@ -283,6 +285,22 @@
 					<ul class="social-icons">
 						<li><a href="https://instagram.com/reyesCantina_XL" target="_blank" class="icon-instagram"></a></li>
 						<li><a href="https://www.facebook.com/reyesCantinaXL" target="_blank" class="icon-facebook"></a></li>
+					</ul>
+				</div>
+
+				<div class="unidad qro">
+					<figure></figure>
+					<p class="title">QUERÉTARO</p>
+					<figure class="mapa qro"><a href="https://goo.gl/maps/Dh2ajsx4jys" target="_blank"><img src="images/mapa-reyes-cantina-queretaro.jpg" alt="Mapa Reyes Querétaro" width="589" height="252"></a></figure>
+					<p>
+						Boulevard Bernardo Quintana 4195 <br>
+						Alamos tercera sección <br>
+						C.P. 76160 <br>
+						Tel. 4424473822 <br>
+					</p>
+					<ul class="social-icons">
+						<li><a href="https://instagram.com/reyescantina_qro" target="_blank" class="icon-instagram"></a></li>
+						<li><a href="https://www.facebook.com/Reyes-Cantina-QRO-1912128149031661" target="_blank" class="icon-facebook"></a></li>
 					</ul>
 				</div>
 
