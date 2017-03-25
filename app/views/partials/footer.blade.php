@@ -1,7 +1,7 @@
 <p class="text">
-	Av. Real Acueducto 360-A, <br>
-	Torre Alfil, Piso 1,  <br>
-	Col. Real Acueducto, CP 45116 <br>
+	Av. Montevideo #3286 - 2 <br>
+	Col. Jardines Providencia 4 ta sección <br>
+	C.P. 44639 <br>
 	Cel: 333 499 1859 <br>
 	<a href="mailto:marketing@labdeideas.com.mx">marketing@labdeideas.com.mx</a>
 </p>

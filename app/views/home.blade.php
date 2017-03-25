@@ -14,8 +14,8 @@
 				<div class="carousel-inner" role="listbox">
 					<div class="item active"><img src="../images/reyes-cantina-banner-01.jpg" width="690" height="749" alt=""></div>
 					<div class="item"><img src="../images/reyes-cantina-banner-02-.jpg" width="690" height="749" alt=""></div>
-					<div class="item"><img src="../images/reyes-cantina-banner-03-.jpg" width="690" height="749" alt=""></div>
-					<div class="item"><img src="../images/reyes-cantina-banner-04-.jpg" width="690" height="749" alt=""></div>
+					<div class="item"><img src="../images/reyes-cantina-banner-03-new.jpg" width="690" height="749" alt=""></div>
+					<div class="item"><img src="../images/reyes-cantina-banner-04-new.jpg" width="690" height="749" alt=""></div>
 				</div>
 				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -31,7 +31,7 @@
 		<section class="filosofia" id="filosofia">
 			<div class="container">
 				<fugure class="corona">
-					<img src="../images/corona-reyes-logo-aplicacion.png" width="556" height="465" alt="Corona Reyes Logo Filosofía">
+					<img src="../images/corona-reyes.png" width="556" height="465" alt="Corona Reyes Logo Filosofía">
 				</fugure>
 				<div class="title-container">
 					<span class="item-deco left-deco"></span><h2>FILOSOFÍA REYES</h2><span class="item-deco right-deco"></span>
@@ -64,9 +64,10 @@
 					<p class="desc-top">Comida tradicional Mexicana que fusiona platillos de diferentes regiones del país con ingredientes y recetas de diversas partes del mundo.</p>
 					<div id="carousel_food" class="carousel_food slide">
 						<div class="carousel-inner" role="listbox">
-							<div class="item active"><img src="../images/comida-01.jpg" width="687" height="570" alt="comida 01"></div>
-							<div class="item"><img src="../images/comida-02.jpg" width="687" height="570" alt="comida 02"></div>
-							<div class="item"><img src="../images/comida-03.jpg" width="687" height="570" alt="comida 03"></div>
+							<div class="item active"><img src="../images/comida-03.jpg" width="687" height="570" alt="comida 03"></div>
+							<div class="item"><img src="../images/comida-esquites.jpg" width="687" height="570" alt="comida esquites"></div>
+							<div class="item"><img src="../images/comida-jaula.jpg" width="687" height="570" alt="comida jaula"></div>
+
 						</div>
 					</div>
 					<h3>Nuestros platillos</h3>
@@ -82,6 +83,7 @@
 							<div class="item"><img src="../images/bebida-02-jarrito.jpg" width="687" height="570" alt="bebida 02 jarrito"></div>
 							<div class="item"><img src="../images/bebida-03-gallo.jpg" width="687" height="570" alt="bebida 03 gallo"></div>
 							<div class="item"><img src="../images/bebida-04-jarrito.jpg" width="687" height="570" alt="bebida 04 jarrito"></div>
+							<div class="item"><img src="../images/bebida-albaquito.jpg" width="687" height="570" alt="bebida albaquito"></div>
 						</div>
 					</div>
 					<h3>Nuestras bebidas</h3>
@@ -94,7 +96,6 @@
 					<div id="carousel_musica" class="carousel_musica slide">
 						<div class="carousel-inner" role="listbox">
 							<div class="item active"><img src="../images/concepto-musica-reyes-cantina.png" width="687" height="570" alt="Música tradicional mexicana en fusión con diferentes géneros como, salsa, bachata y el top chart de pop del momento."></div>
-							<div class="item"><img src="../images/concepto-musica-trioker-reyes-cantina.png" width="687" height="570" alt="Los trioker en Reyes Salón Canitna"></div>
 							<div class="item"><img src="../images/concepto-musica-DJ-funky-kong-reyes-cantina.png" width="687" height="570" alt="DJ Funky Kong en Reyes Salón Canitna"></div>
 						</div>
 					</div>
