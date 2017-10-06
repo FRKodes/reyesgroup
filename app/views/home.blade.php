@@ -284,7 +284,7 @@
 				<div class="unidad zac">
 					<figure></figure>
 					<p class="title">ZACATECAS</p>
-					<figure class="mapa zac"><a href="https://goo.gl/maps/Dh2ajsx4jys" target="_blank"><img src="images/mapa-reyes-cantina-zacatecas.png" alt="Mapa Reyes Zacatecas" width="589" height="252"></a></figure>
+					<figure class="mapa zac"><a href="https://goo.gl/maps/5y2jqszqJ8T2" target="_blank"><img src="images/mapa-reyes-cantina-zacatecas.png" alt="Mapa Reyes Zacatecas" width="589" height="252"></a></figure>
 					<p>
 						Instalaciones de la Feria <br>
 						 <br>
