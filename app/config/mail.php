@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => 'no-reply@reyesgroup.com.mx', 'name' => 'Reyes Group'),
+	'from' => array('address' => 'no-reply@reyescantina.com', 'name' => 'Reyes Group'),
 
 	/*
 	|--------------------------------------------------------------------------
