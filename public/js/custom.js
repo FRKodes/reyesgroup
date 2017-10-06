@@ -27,13 +27,11 @@ $( document ).ready(function() {
     });
     /*unidades script*/
     $('.unidades-list li a').on('click', function(){
-        console.log($(this).attr('class'));
         var idUnidad = $(this).attr('class');
         $('.unidad').hide();
         $('.unidad.' + idUnidad).show();
     });
     $('.platillos .steps li a').on('click', function(){
-        console.log($(this).attr('class'));
         var idUnidad = $(this).attr('class');
         $('.platillos .photos li').css('display', 'none').removeClass('show');
         $('.platillos .photos li.' + idUnidad).show();

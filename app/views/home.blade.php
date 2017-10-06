@@ -12,10 +12,10 @@
 					<li data-target="#myCarousel" data-slide-to="3"></li>
 				</ol>
 				<div class="carousel-inner" role="listbox">
-					<div class="item active"><img src="../images/reyes-cantina-banner-01.jpg" width="690" height="749" alt=""></div>
-					<div class="item"><img src="../images/reyes-cantina-banner-02-.jpg" width="690" height="749" alt=""></div>
-					<div class="item"><img src="../images/reyes-cantina-banner-03-new.jpg" width="690" height="749" alt=""></div>
-					<div class="item"><img src="../images/reyes-cantina-banner-04-new.jpg" width="690" height="749" alt=""></div>
+					<div class="item active"><img src="../images/banner-tepa.jpg" width="690" height="749" alt=""></div>
+					<div class="item"><img src="../images/banner-platillo-01.jpg" width="690" height="749" alt=""></div>
+					<div class="item"><img src="../images/banner-platillo-02.jpg" width="690" height="749" alt=""></div>
+					<div class="item"><img src="../images/banner-platillo-03.jpg" width="690" height="749" alt=""></div>
 				</div>
 				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -31,7 +31,7 @@
 		<section class="filosofia" id="filosofia">
 			<div class="container">
 				<fugure class="corona">
-					<img src="../images/corona-reyes.png" width="556" height="465" alt="Corona Reyes Logo Filosofía">
+					<img src="../images/corona-filosofia-reyes.png" width="556" height="465" alt="Corona Reyes Logo Filosofía">
 				</fugure>
 				<div class="title-container">
 					<span class="item-deco left-deco"></span><h2>FILOSOFÍA REYES</h2><span class="item-deco right-deco"></span>
@@ -64,10 +64,9 @@
 					<p class="desc-top">Comida tradicional Mexicana que fusiona platillos de diferentes regiones del país con ingredientes y recetas de diversas partes del mundo.</p>
 					<div id="carousel_food" class="carousel_food slide">
 						<div class="carousel-inner" role="listbox">
-							<div class="item active"><img src="../images/comida-03.jpg" width="687" height="570" alt="comida 03"></div>
-							<div class="item"><img src="../images/comida-esquites.jpg" width="687" height="570" alt="comida esquites"></div>
-							<div class="item"><img src="../images/comida-jaula.jpg" width="687" height="570" alt="comida jaula"></div>
-
+							<div class="item active"><img src="../images/comida-01-new.jpg" width="687" height="570" alt="comida 01"></div>
+							<div class="item"><img src="../images/comida-02-new.jpg" width="687" height="570" alt="comida 02"></div>
+							<div class="item"><img src="../images/comida-03-new.jpg" width="687" height="570" alt="comida 03"></div>
 						</div>
 					</div>
 					<h3>Nuestros platillos</h3>
@@ -79,11 +78,10 @@
 					<p class="desc-top">El shot de mezcal con alacrán , nuestros famoso gallos y el cantarito, son algunas de las bebidas más populares entre nuestros clientes.</p>
 					<div id="carousel_beberages" class="carousel_beberages slide">
 						<div class="carousel-inner" role="listbox">
-							<div class="item active"><img src="../images/bebida-01-shot-alacran.jpg" width="687" height="570" alt="bebida 01 shot alacran"></div>
-							<div class="item"><img src="../images/bebida-02-jarrito.jpg" width="687" height="570" alt="bebida 02 jarrito"></div>
-							<div class="item"><img src="../images/bebida-03-gallo.jpg" width="687" height="570" alt="bebida 03 gallo"></div>
-							<div class="item"><img src="../images/bebida-04-jarrito.jpg" width="687" height="570" alt="bebida 04 jarrito"></div>
-							<div class="item"><img src="../images/bebida-albaquito.jpg" width="687" height="570" alt="bebida albaquito"></div>
+							<div class="item active"><img src="../images/bebida-01-new.jpg" width="687" height="570" alt="bebida jarrito"></div>
+							<div class="item"><img src="../images/bebida-02-new.jpg" width="687" height="570" alt="bebida jarrito 02"></div>
+							<div class="item"><img src="../images/bebida-03-new.jpg" width="687" height="570" alt="bebida shot de alacrán"></div>
+							<div class="item"><img src="../images/bebida-04-new.jpg" width="687" height="570" alt="bebida Gallo"></div>
 						</div>
 					</div>
 					<h3>Nuestras bebidas</h3>
@@ -95,8 +93,8 @@
 					<p class="desc-top">Música tradicional mexicana en fusión con diferentes géneros como, salsa, bachata y el top chart de pop del momento.</p>
 					<div id="carousel_musica" class="carousel_musica slide">
 						<div class="carousel-inner" role="listbox">
-							<div class="item active"><img src="../images/concepto-musica-reyes-cantina.png" width="687" height="570" alt="Música tradicional mexicana en fusión con diferentes géneros como, salsa, bachata y el top chart de pop del momento."></div>
-							<div class="item"><img src="../images/concepto-musica-DJ-funky-kong-reyes-cantina.png" width="687" height="570" alt="DJ Funky Kong en Reyes Salón Canitna"></div>
+							<div class="item active"><img src="../images/musica-01-new.jpg" width="687" height="570" alt="Música tradicional mexicana en fusión con diferentes géneros como, salsa, bachata y el top chart de pop del momento."></div>
+							<div class="item"><img src="../images/musica-02-new.jpg" width="687" height="570" alt="Mariachi"></div>
 						</div>
 					</div>
 					<h3>Nuestra música</h3>
@@ -165,12 +163,12 @@
 			<span class="bottom-deco"></span>
 			<ul class="unidades-list">
 				<li><a class="gdl" href="#gdl"><span>GDL</span></a></li>
-				<li><a class="ags" href="#ags"><span>AGS</span></a></li>
 				<li><a class="tj" href="#tj"><span>TJ</span></a></li>
 				<li><a class="cln" href="#cln"><span>CLN</span></a></li>
 				<li><a class="mxl" href="#mxl"><span>MXL</span></a></li>
 				<li><a class="xal" href="#xal"><span>XL</span></a></li>
 				<li><a class="qro" href="#qro"><span>QRO</span></a></li>
+				<li><a class="zac" href="#zac"><span>ZAC</span></a></li>
 			</ul>
 			<div class="container-info">
 				
@@ -221,28 +219,6 @@
 					</ul>
 				</div>
 				
-				<div class="unidad ags">
-					<figure></figure>
-					<p class="title">HERMOSILLO</p>
-					<figure class="mapa ags">
-						<a href="https://www.google.com.mx/maps/place/29%C2%B004'53.7%22N+111%C2%B001'16.6%22W/@29.0815863,-111.0218858,18z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d29.081585!4d-111.021273" target="_blank" title="Ir al mapa de Reyes Salón Cantina Hermosillo en una ventana nueva">
-							<img src="images/mapa-reyes-cantina-hermosillo.png" alt="Mapa reyes cantina Hermosillo" width="589" height="252">
-						</a>
-					</figure>
-					<p>
-						Blvd. Luis Donaldo Colosio 386 <br>
-						Hermosillo, Sonora. <br>
-						C.P.83200 <br>
-						&nbsp;<br>
-						&nbsp;<br>
-						&nbsp;
-					</p>
-					<ul class="social-icons">
-						<li><a href="https://instagram.com/reyescantina_hmo" target="_blank" class="icon-instagram"></a></li>
-						<li><a href="https://www.facebook.com/reyesCantinaHMO" target="_blank" class="icon-facebook"></a></li>
-					</ul>
-				</div>
-				
 				<div class="unidad cln">
 					<figure></figure>
 					<p class="title">CULIACÁN</p>
@@ -250,7 +226,7 @@
 					<p>
 						Blvd. Enrique Sánchez Alonso 1651-5<br>
 						Des. Urb. 3 Ríos C.P. 80020<br>
-						Culiacán, Sin.<br>
+						Culiacán, Sin.<br> <br><br> <br>
 					</p>
 					<ul class="social-icons">
 						<li><a href="https://instagram.com/reyescantina_cln" target="_blank" class="icon-instagram"></a></li>
@@ -265,7 +241,7 @@
 					<p>
 						Calzada Cuauhtémoc No. 100 <br>
 						Colonia Aviación <br>
-						Mexicali, B.C.
+						Mexicali, B.C. <br>
 						<br>
 					</p>
 					<ul class="social-icons">
@@ -281,7 +257,7 @@
 					<p>
 						Power Center Xanat<br>
 						Carretera Xalapa - Veracruz km 4+300<br>
-						Teléfono 2288129099 <br>
+						Teléfono 2288129099 <br> <br>
 					</p>
 					<ul class="social-icons">
 						<li><a href="https://instagram.com/reyesCantina_XL" target="_blank" class="icon-instagram"></a></li>
@@ -302,6 +278,22 @@
 					<ul class="social-icons">
 						<li><a href="https://instagram.com/reyescantina_qro" target="_blank" class="icon-instagram"></a></li>
 						<li><a href="https://www.facebook.com/Reyes-Cantina-QRO-1912128149031661" target="_blank" class="icon-facebook"></a></li>
+					</ul>
+				</div>
+
+				<div class="unidad zac">
+					<figure></figure>
+					<p class="title">ZACATECAS</p>
+					<figure class="mapa zac"><a href="https://goo.gl/maps/Dh2ajsx4jys" target="_blank"><img src="images/mapa-reyes-cantina-zacatecas.png" alt="Mapa Reyes Zacatecas" width="589" height="252"></a></figure>
+					<p>
+						Instalaciones de la Feria <br>
+						 <br>
+						 <br>
+						 <br>
+					</p>
+					<ul class="social-icons">
+						<li><a href="https://instagram.com/reyescantina_zac" target="_blank" class="icon-instagram"></a></li>
+						<li><a href="https://www.facebook.com/ReyesCantinaZac/" target="_blank" class="icon-facebook"></a></li>
 					</ul>
 				</div>
 
