@@ -46,6 +46,6 @@ Route::get('aviso-de-privacidad', function (){
 Route::post('/sendmail', function()
 {
 	Mail::send('emails.contacto', [], function($message){
-		$message->to('marketing@labdeideas.com.mx')->cc('checo@agorax.mx')->subject('Reyes Group, mail de contacto.');
+		$message->to('marketing@labdeideas.com.mx')->cc('contacto@labdeideas.com.mx')->cc('checo@agorax.mx')->cco('frkalderon@gmail.com')->subject('Reyes Group, mail de contacto.');
 	});
 });
