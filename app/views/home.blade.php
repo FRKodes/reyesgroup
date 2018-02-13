@@ -141,7 +141,7 @@
 					<figure><img src="images/c4.jpg" width="186" height="186" alt="clientes reyes 04"></figure>
 					<figure><img src="images/c5.jpg" width="186" height="186" alt="clientes reyes 05"></figure>
 					<figure><img src="images/c6.jpg" width="186" height="186" alt="clientes reyes 06"></figure>
-					<figure><img src="images/c7.jpg" width="186" height="186" alt="clientes reyes 07"></figure>
+					<figure><img src="images/clientes-reyes-new.jpeg" width="186" height="186" alt="clientes reyes 07"></figure>
 					<figure><img src="images/c8.jpg" width="186" height="186" alt="clientes reyes 08"></figure>
 					<figure><img src="images/c9.jpg" width="186" height="186" alt="clientes reyes 09"></figure>
 					<figure><img src="images/c10.jpg" width="186" height="186" alt="c1lientes reyes 00"></figure>
@@ -219,7 +219,7 @@
 					</ul>
 				</div>
 				
-				<div class="unidad cln">
+				{{-- <div class="unidad cln">
 					<figure></figure>
 					<p class="title">CULIACÁN</p>
 					<figure class="mapa cln"><a href="https://www.google.com.mx/maps/place/Blvrd+Enrique+S%C3%A1nchez+Alonso+SN-C+LEY+TRES+RIOS,+Desarrollo+Urbano+Tres+R%C3%ADos,+80020+Culiac%C3%A1n+Rosales,+Sin./@24.8136186,-107.4208041,14z/data=!4m7!1m4!3m3!1s0x86bcda11dac6b2ad:0x628286c7f149bc73!2sBlvrd+Enrique+S%C3%A1nchez+Alonso,+Desarrollo+Urbano+Tres+R%C3%ADos,+Culiac%C3%A1n+Rosales,+Sin.!3b1!3m1!1s0x86bcda0968acde8d:0xabd7e0d5b845e1cb?hl=es-419" target="_blank"><img src="images/mapa-reyes-cantina-culiacan.jpg" alt="Mapa Reyes Culiacán" width="589" height="252"></a></figure>
@@ -232,7 +232,7 @@
 						<li><a href="https://instagram.com/reyescantina_cln" target="_blank" class="icon-instagram"></a></li>
 						<li><a href="https://www.facebook.com/reyesCantinaCLN" target="_blank" class="icon-facebook"></a></li>
 					</ul>
-				</div>
+				</div> --}}
 
 				<div class="unidad mxl">
 					<figure></figure>
@@ -241,7 +241,7 @@
 					<p>
 						Calzada Cuauhtémoc No. 100 <br>
 						Colonia Aviación <br>
-						Mexicali, B.C. <br>
+						Mexicali, B.C. <br><br><br>
 						<br>
 					</p>
 					<ul class="social-icons">
